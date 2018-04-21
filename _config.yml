@@ -1,7 +1,7 @@
 # Site
-title: Halve
-description: Stylish, Two-Column Jekyll Theme
-url: https://keithnull.github.io/
+title: Keith Null
+description: Freshman | Programmer | Reader | Film Lover | Runner | JJ Lin's Fan
+url: https://keithnull.github.io
 logo: halve.png                                       # Site logo
 locale: en_US
 
@@ -29,11 +29,11 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-email:             keith79902@gmail.com
+email:             keith1126@126.com
 #google.plus:        username
-twitter:            username
+twitter:            KeithNull1
 #facebook:           username
-github:             username
+github:             keithnull
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
@@ -52,7 +52,7 @@ github:             username
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-behance:           username
+#behance:           username
 
 # Gems
 gems:
