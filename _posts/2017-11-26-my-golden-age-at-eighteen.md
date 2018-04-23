@@ -2,7 +2,7 @@
 layout: post
 title: "十八岁，我知道我的黄金时代正在到来"
 categories:
-  - Others
+  - Myself
 tags:
   - 生日
   - 十八岁
