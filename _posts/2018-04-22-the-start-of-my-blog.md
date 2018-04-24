@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "起点，现在，未来"
+title: 起点，现在，未来
 categories:
   - Myself
 tags:
   - 回忆
   - 博客
   - 表达欲
+image: images/dawid-zawila-223727-unsplash.jpg
 ---
 
 >人总是有无法满足的表达欲望。

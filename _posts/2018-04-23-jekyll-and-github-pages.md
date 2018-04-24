@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "用Jekyll和Github Pages搭建博客之记录"
+title: 用Jekyll和Github Pages搭建博客之记录
 categories:
   - Programmer
 tags:
@@ -9,7 +9,9 @@ tags:
   - Github Pages
   - 博客
 excerpt:
-    "我是如何用Jekyll搭建博客并部署到Github Pages上的。"
+    我是如何用Jekyll搭建博客并部署到Github Pages上的。
+image:
+    images/alex-stuart-567895-unsplash.jpg
 ---
 
 ## 起因
@@ -35,7 +37,13 @@ excerpt:
 Github Pages上提供了少数可选的Jekyll主题，但[Jekyll Themes](http://jekyllthemes.org/)提供了更多而且更精美的主题。一番筛选后，最后选中了现在的主题，[Halve](https://github.com/TaylanTatli/Halve),
 很漂亮，同时也很简约。
 
-按照主题的说明，修改_config.yml进行基本的配置，并修改index.md,\_posts/,\_data,\_images等内容，便完成了大部分工作。
+<figure>
+    <a href="/images/halve-home-image.png"><img src="/images/halve-home-image.png"></a>
+    <figcaption><a href="https://github.com/TaylanTatli/Halve">Jekyll Theme: Halve</a></figcaption>
+</figure>
+
+
+按照主题的说明，修改`_config.yml`进行基本的配置，并修改`index.md`, `_posts/`, `_data/`, `_images/`等内容，便完成了大部分工作。
 
 但在此基础上，我又做了一些其他的工作，更加深入一些。
 
@@ -43,7 +51,7 @@ Github Pages上提供了少数可选的Jekyll主题，但[Jekyll Themes](http://
 
 Havle主题默认是左侧图片和右侧内容各占50%，给人一种类似书本平摊的感觉，诚然美观，但一定程度上影响了实用性。对于小屏幕设备（如Surface），仅用50%空间显示内容不免有些奢侈。 于是，我决定调整一下这个比例。
 
-在哪里调整呢？在\_config.yml里面没有这个选项，分析一下，这种事情应该是由CSS实现的，那么便去assets/css/文件夹里面寻找，只有一个引用了其他文件的main.css，溯源而上，找到了assets/css/\_sass/\_site.scss，对应内容如下：
+在哪里调整呢？在`_config.yml`里面没有这个选项，分析一下，这种事情应该是由CSS实现的，那么便去`assets/css/`文件夹里面寻找，只有一个引用了其他文件的`main.css`，溯源而上，找到了`assets/css/_sass/_site.scss`，对应内容如下：
 
 ```scss
 .block-left {
@@ -105,13 +113,14 @@ Havle主题默认是左侧图片和右侧内容各占50%，给人一种类似书
   }
 }
 ```
+
 ### 更改字体大小
 
 由于Halve主题原本面向的是英文用户，其字体的选用和大小都针对英文而设计，所以一开始我担心对于中文会显示效果不佳。不过经过测试，中文会采用默认的微软雅黑字体，差强人意，但尺寸上面，显得有些太大了，特别是在更改过页面比例后，长标题甚至会溢出左侧区域。
 
 因此，需要把字体调小一些。
 
-和调整页面比例类似，同样在assets/css/\_sass/\_site.scss内找到对应内容如下：
+和调整页面比例类似，同样在`assets/css/_sass/_site.scss`内找到对应内容如下：
 
 ```scss
 .section-title {
@@ -181,7 +190,7 @@ Havle主题默认是左侧图片和右侧内容各占50%，给人一种类似书
 
 主题默认头像是方形的，而且是透明背景的，显示出来效果十分优雅，但换上我自定义的头像后，美感全无...尝试给图片去底，不是很成功，于是想着换成圆形。
 
-在CSS中，让图片以圆形显示其实是设置为50%的圆角矩形，故在assets/css/\_sass/\_site.scss的.logo中增加如下内容：
+在CSS中，让图片以圆形显示其实是设置为50%的圆角矩形，故在`assets/css/_sass/_site.scss`的.logo中增加如下内容：
 ```scss
 img {
   height: auto;
@@ -192,6 +201,11 @@ img {
 ```
 
 这样子之后，效果相对可以接受了。
+
+<figure>
+    <a href="/images/Screenshot-2018-4-24 Keith Null.png"><img src="/images/Screenshot-2018-4-24 Keith Null.png"></a>
+    <figcaption>最终效果</figcaption>
+</figure>
 
 ## Github Pages
 
@@ -210,7 +224,7 @@ img {
 |CNAME|@|keithnull.github.io|
 |CNAME|www|keithnull.github.io|
 
-同时，在Jekyll文件夹内增加一个名为CNAME的文件，内容是自定义的域名。
+同时，在Jekyll文件夹内增加一个名为`CNAME`的文件，内容是自定义的域名。
 
 然后，等待。
 
