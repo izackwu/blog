@@ -38,7 +38,6 @@ coding.net      git@git.coding.net:KeithNull/keithnull.github.io.git (fetch)
 coding.net      git@git.coding.net:KeithNull/keithnull.github.io.git (push)
 origin  git@github.com:keithnull/keithnull.github.io.git (fetch)
 origin  git@github.com:keithnull/keithnull.github.io.git (push)
-
 ```
 
 此后，若需进行`push`操作，则需要指定目标仓库，`git push <repo> <branch>`，对这两个远程仓库分别操作：
