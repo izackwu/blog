@@ -9,7 +9,7 @@ tags:
   - Github
   - Let's Encrypt
 excerpt: Github与Let's Encrypt合作，让事情变得简单了许多。
-image: images/bryan-minear-368010-unsplash.jpg
+image: https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/bryan-minear-368010-unsplash.jpg
 ---
 
 对于部署在Github Pages 上的网站，如果使用默认的`*.github.io`域名，Github 会**自动且强制**地使用HTTPS，不需要任何额外操作。
@@ -19,7 +19,7 @@ image: images/bryan-minear-368010-unsplash.jpg
 然而就在前几天，无意间看到Github的官方消息，自定义域名也支持HTTPS了，而且操作简单，所以毫无疑问，肯定选择HTTPS。
 
 <figure>
-    <a href="/images/github-https-twitter.png"><img src="/images/github-https-twitter.png"></a>
+    <a href="https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/github-https-twitter.png"><img src="https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/github-https-twitter.png"></a>
     <figcaption>Github在Twitter上发布的消息</figcaption>
 </figure>
 

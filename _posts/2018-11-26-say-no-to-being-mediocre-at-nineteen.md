@@ -9,7 +9,7 @@ tags:
   - 平庸
   - 庸俗
 excerpt: 十九岁的我，选择怎样的生活？至少，我不愿让一切走向庸俗。
-image: images/sofiya-levchenko-308460-unsplash.jpg
+image: https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/sofiya-levchenko-308460-unsplash.jpg
 ---
 
 > 长安城里的一切都在无可避免的走向庸俗。 ——王小波《万寿寺》

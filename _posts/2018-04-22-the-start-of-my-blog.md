@@ -7,7 +7,7 @@ tags:
   - 回忆
   - 博客
   - 表达欲
-image: images/dawid-zawila-223727-unsplash.jpg
+image: https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/dawid-zawila-223727-unsplash.jpg
 ---
 
 >人总是有无法满足的表达欲望。

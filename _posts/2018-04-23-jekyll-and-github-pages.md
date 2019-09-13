@@ -11,7 +11,7 @@ tags:
 excerpt:
     我是如何用Jekyll搭建博客并部署到Github Pages上的。
 image:
-    images/alex-stuart-567895-unsplash.jpg
+    https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/alex-stuart-567895-unsplash.jpg
 ---
 
 ## 起因
@@ -38,7 +38,7 @@ Github Pages上提供了少数可选的Jekyll主题，但[Jekyll Themes](http://
 很漂亮，同时也很简约。
 
 <figure>
-    <a href="/images/halve-home-image.png"><img src="/images/halve-home-image.png"></a>
+    <a href="https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/halve-home-image.png"><img src="https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/halve-home-image.png"></a>
     <figcaption><a href="https://github.com/TaylanTatli/Halve">Jekyll Theme: Halve</a></figcaption>
 </figure>
 
@@ -203,7 +203,7 @@ img {
 这样子之后，效果相对可以接受了。
 
 <figure>
-    <a href="/images/Screenshot-2018-4-24 Keith Null.png"><img src="/images/Screenshot-2018-4-24 Keith Null.png"></a>
+    <a href="https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/Screenshot-2018-4-24 Keith Null.png"><img src="https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/Screenshot-2018-4-24 Keith Null.png"></a>
     <figcaption>最终效果</figcaption>
 </figure>
 
