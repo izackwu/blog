@@ -6,7 +6,7 @@ categories:
 tags:
   - Git
 excerpt: 通常情况下，一个本地Git仓库对应一个远程仓库，那么，如何使其同时关联多个远程仓库呢？
-image: https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/shifaaz-shamoon-sLAk1guBG90-unsplash.jpg
+image: https://pic.imwzk.com/shifaaz-shamoon-sLAk1guBG90-unsplash.jpg
 ---
 
 ## 背景

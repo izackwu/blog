@@ -2,14 +2,14 @@
 title: Keith Null
 description: Junior | Programmer | Reader | Film Lover | Runner
 url: https://imwzk.com
-logo: https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/author.jpg                                       # Site logo
+logo: https://pic.imwzk.com/author.jpg                                       # Site logo
 locale: zh_CN
 
 # Left Block Images
 background:
-  homepage: https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/home.png                           # this image will be shown on homepage's left block
-  post-list: https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/post-list.jpg             # this image will be shown on post list page
-  default-post: https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/default-post.jpg   # this image will be shown when post's front matter doesn't specify any image
+  homepage: https://pic.imwzk.com/home.png                           # this image will be shown on homepage's left block
+  post-list: https://pic.imwzk.com/post-list.jpg             # this image will be shown on post list page
+  default-post: https://pic.imwzk.com/default-post.jpg   # this image will be shown when post's front matter doesn't specify any image
 
 # Jekyll
 permalink:          /:title/

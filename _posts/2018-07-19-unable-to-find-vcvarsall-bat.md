@@ -106,7 +106,7 @@ def find_vcvarsall(version):
 其作者简单解释了出错的原因并给出了解决方案:
 
 <figure>
-    <a href="https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/unable-to-find-vcvarsall-bat-msdn.png"><img src="https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/unable-to-find-vcvarsall-bat-msdn.png"></a>
+    <a href="https://pic.imwzk.com/unable-to-find-vcvarsall-bat-msdn.png"><img src="https://pic.imwzk.com/unable-to-find-vcvarsall-bat-msdn.png"></a>
     <figcaption>MSDN: Solutions</figcaption>
 </figure>
 
@@ -153,7 +153,7 @@ error: command 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\BIN\\
 ,给出的答案看上去非常靠谱:
 
 <figure>
-    <a href="https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/stackoverflow-exit-status-1158.png"><img src="https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/stackoverflow-exit-status-1158.png"></a>
+    <a href="https://pic.imwzk.com/stackoverflow-exit-status-1158.png"><img src="https://pic.imwzk.com/stackoverflow-exit-status-1158.png"></a>
     <figcaption>StackOverflow: Solutions</figcaption>
 </figure>
 

@@ -9,7 +9,7 @@ tags:
   - C/C++
   - JSON
 excerpt: 跟着Milo Yip的教程，我顺利完成了leptjson项目，这一过程中，除了JSON与C，我还学到了什么？
-image: https://imwzk-1258985649.cos.ap-shanghai.myqcloud.com/sofiya-levchenko-308460-unsplash.jpg
+image: https://pic.imwzk.com/sofiya-levchenko-308460-unsplash.jpg
 ---
 
 ## 简介
