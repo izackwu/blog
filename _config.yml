@@ -54,11 +54,12 @@ github:             keithnull
 #hackernews:        username
 #behance:           username
 
-# Gems
-gems:
+# Plugins
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-include-cache
 
 # Exclude list
 include: [_pages]
