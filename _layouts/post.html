@@ -30,9 +30,6 @@ layout: compress
         {% include share.html %}
       </div>
       <a href="../posts" title="posts" class="posts-menu-icon"></a>
-      <a title="projects" class="projects-menu-icon">
-        <span></span>
-      </a>
       <div class="inner-post content">
         <div class="date-highlight">{% if page.date %}{{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
         {{ content }}
@@ -43,6 +40,5 @@ layout: compress
       </div>
     </div>
     {% include scripts.html %}
-    {% include overlay.html %}
 </body>
 </html>

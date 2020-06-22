@@ -26,10 +26,6 @@ layout: compress
   <div class="block-right">
     <a href="{{ site.url }}/posts" title="posts" class="posts-menu-icon"></a>
     <span class="posts-link">POSTS</span>
-    <a title="project" class="projects-menu-icon">
-      <span></span>
-    </a>
-    <span class="projects-link">PROJECTS</span>
     <div class="content">
       <div class="about-info">
         {{ content }}
@@ -39,7 +35,6 @@ layout: compress
             {{ site.license }}
     </a>
   </div>
-  {% include overlay.html %}
   {% include scripts.html %}
   <script src="{{ site.url }}/assets/js/canvas.js"></script>
 </body>

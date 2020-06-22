@@ -47,66 +47,10 @@ canvas {
   z-index: 0;
 }
 
-.projects-menu-icon {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  width: 15px;
-  height: 15px;
-  border: 2px solid $gray;
-  border-radius: 3px;
-  cursor: pointer;
-  z-index: 3;
-  &:before {
-    content: '';
-    position: absolute;
-    left: -19px;
-    top: -2px;
-    width: 15px;
-    height: 15px;
-    border: 2px solid $gray;
-    border-radius: 3px;
-  }
-  span {
-    position: absolute;
-    top: 15px;
-    right: -2px;
-    width: 15px;
-    height: 15px;
-    border: 2px solid $gray;
-    border-radius: 3px;
-    &:before {
-      content: '';
-      position: absolute;
-      left: -19px;
-      top: -2px;
-      width: 15px;
-      height: 15px;
-      border: 2px solid $gray;
-      border-radius: 3px;
-    }
-  }
-  &:hover {
-    border-color: $green;
-    &:before {
-      border-color: $green;
-    }
-    span {
-      border-color: $green;
-      &:before {
-        border-color: $green;
-      }
-    }
-  }
-  &.active {
-    position: fixed;
-  }
-}
-
 .posts-menu-icon {
   position: absolute;
   top: 30px;
-  right: 90px;
+  right: 30px;
   width: 20px;
   height: 25px;
   border: 2px solid $gray;
@@ -140,8 +84,7 @@ canvas {
   }
 }
 
-.posts-link,
-.projects-link {
+.posts-link{
   position: absolute;
   top: 73px;
   font-size: 12px;
@@ -149,26 +92,7 @@ canvas {
 }
 
 .posts-link {
-  right: 90px;
-}
-
-.projects-link {
-  right: 20px;
-}
-
-.overlay {
-  position: fixed;
-  background: $overlay-color;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 2;
-  display: none;
-  overflow-y: auto;
-  &.show {
-    display: block;
-  }
+  right: 30px;
 }
 
 .projects-menu {
