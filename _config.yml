@@ -6,6 +6,8 @@ logo: https://pic.imwzk.com/author.jpg                                       # S
 locale: zh_CN
 license: 赣ICP备19012492号
 wechat_pic: https://pic.imwzk.com/wechat-white.png
+display_rss:  true  # set this to `false` to hide rss icon
+enable_pangu: true  # pangu will automatically insert spaces between English and Chinese
 
 # Left Block Images
 background:
@@ -31,7 +33,6 @@ sass:
 google-analytics: UA-118116525-1
 
 # Social Links
-display_rss:  true  # set this to `false` to hide rss icon
 email:             hi@imwzk.com
 #google.plus:        username
 twitter:            _keithnull
