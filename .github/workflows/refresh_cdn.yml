@@ -8,16 +8,9 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install tencentcloud-sdk-python
-    - name: Run script to refresh CDN
-      run: |
-        python3 .github/refresh_cdn.py ${{ secrets.SecretId }} ${{ secrets.SecretKey }} "https://www.imwzk.com/"
-
+    - uses: keithnull/tencent-cloud-cdn-purge-cache@master
+      env:
+        SECRET_ID: ${{ secrets.SecretId}}
+        SECRET_KEY: ${{ secrets.SecretKey }}
+        PATHS: "https://www.imwzk.com/"
+        FLUSH_TYPE: flush
