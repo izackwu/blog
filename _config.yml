@@ -15,6 +15,15 @@ background:
   post-list: https://pic.imwzk.com/post-list.jpg             # this image will be shown on post list page
   default-post: https://pic.imwzk.com/default-post.jpg   # this image will be shown when post's front matter doesn't specify any image
 
+# Article Comments with Gitalk
+gitalk:
+  enabled: true
+  client_id: 541b66df2ca4fba90b0c
+  client_secret: 157f686855f29762873e8ce11e056f7397c58209
+  repository: keithnull/keithnull.github.io
+  owner: keithnull
+  admin: keithnull
+
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
