@@ -20,7 +20,7 @@ gitalk:
   enabled: true
   client_id: 541b66df2ca4fba90b0c
   client_secret: 157f686855f29762873e8ce11e056f7397c58209
-  repository: keithnull/keithnull.github.io
+  repository: keithnull.github.io
   owner: keithnull
   admin: keithnull
 
