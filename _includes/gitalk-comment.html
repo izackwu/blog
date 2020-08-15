@@ -9,7 +9,7 @@
     repo: "{{ site.gitalk.repository }}",
     owner: "{{ site.gitalk.owner }}",
     admin: ["{{ site.gitalk.admin | split: ','  | join: '","'}}"],
-    id: "{{ page.url }}",
+    id: "{{ page.url | truncate: 50, ''}}",
 });
   gitalk.render('gitalk-container')
 </script>
