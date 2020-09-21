@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `无辄的栈`,
-    image: "/gatsby-icon.png",
+    image: "https://pic.imwzk.com/author.jpg",
     description: `Keith Null's Blog`,
     siteUrl: `https://beta.imwzk.com`,
     social: {
@@ -21,7 +21,7 @@ module.exports = {
       { url: "/tags/", label: "标签" },
       { url: "/about", label: "About" },
     ],
-    footerHTML: `© 2020 <a href="https://github.com/keithnull">Keith Null</a> All rights reserved.`,
+    footerHTML: `<a href="https://beian.miit.gov.cn/">赣 ICP 备 19012492 号</a><br/>© 2020 <a href="https://github.com/keithnull">Keith Null</a> All rights reserved.`,
     dateFormat: `YYYY-MM-DD`,
     language: `zh`,
   },
@@ -141,7 +141,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `static/gatsby-icon.png`,
+        icon: `static/tree.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
