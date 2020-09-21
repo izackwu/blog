@@ -1,20 +1,20 @@
 module.exports = {
   siteMetadata: {
-    title: `清风朗月`,
+    title: `无辄的栈`,
     image: "/gatsby-icon.png",
-    description: `Gatsby Starter Breeze`,
-    siteUrl: `https://gatsby-starter-breeze.netlify.app/`,
+    description: `Keith Null's Blog`,
+    siteUrl: `https://beta.imwzk.com`,
     social: {
-      douban: "#",
-      email: "#",
-      facebook: "#",
-      github: "#",
-      instagram: "#",
-      linkedin: "#",
+      douban: "keith1",
+      email: "hi@imwzk.com",
+      facebook: "",
+      github: "keithnull",
+      instagram: "",
+      linkedin: "",
       rss: "/rss.xml",
-      telegram: "#",
-      twitter: "#",
-      youtube: "#",
+      telegram: "",
+      twitter: "_keithnull",
+      youtube: "",
     },
     sidebarMenu: [
       { url: "/archive/", label: "归档" },
@@ -69,7 +69,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-118116525-1`,
       },
     },
     {
@@ -126,7 +126,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "清风朗月",
+            title: "无辄的栈",
           },
         ],
       },
@@ -135,8 +135,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Breeze`,
-        short_name: `Breeze`,
+        name: `无辄的栈`,
+        short_name: `无辄`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
