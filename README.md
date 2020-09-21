@@ -1,7 +1,3 @@
 # About
-This is [my personal blog](https://imwzk.com), using Jekyll's theme of [Halve](https://github.com/TaylanTatli/Halve) and deployed on Github Page.
 
-
-
-
-
+This is [my personal blog](https://www.imwzk.com), using Gatsby's starter [Breeze](https://github.com/keithnull/gatsby-starter-breeze).

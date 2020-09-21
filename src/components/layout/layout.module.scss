@@ -1,0 +1,9 @@
+@import "../../scss/variables";
+
+.layout {
+  max-width: $max-two-column-width;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

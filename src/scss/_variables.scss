@@ -1,0 +1,66 @@
+/** 
+ * Variables
+ */
+
+// Color
+$color-accent: #663399;
+$back-container-background: #fcfcfc;
+$front-container-background: #ffffff;
+
+$dark-accent: darken($color-accent, 10%);
+$deep-dark-accent: darken($color-accent, 50%);
+$color-text: $deep-dark-accent;
+
+@if lightness($color-accent) <20% {
+  $dark-accent: $color-accent;
+  $deep-dark-accent: $color-accent;
+  $color-text: $deep-dark-accent;
+}
+
+// Font
+$default-font-list: "Noto Serif SC", "Helvetica Neue", Helvetica, Arial,
+  "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei",
+  sans-serif;
+$ui-font-list: "Quicksand", "Helvetica Neue", Helvetica, Arial, "Noto Serif SC",
+  "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei",
+  sans-serif;
+
+$h1-size: 30px;
+$h-diff: 3px;
+
+// Layout
+$max-two-column-width: 1600px;
+$max-single-column-width: 1000px;
+$side-container-width: 25%;
+$main-container-width: 75%;
+// -- sidebar
+$nav-item-hover-background-alpha: 0.02;
+$nav-item-hover-indicator-alpha: 0.6;
+$nav-item-hover-color-darken: 30%;
+$nav-item-active-background-alpha: 0.03;
+$nav-item-active-color-darken: 20%;
+$nav-title-size: 30px;
+$nav-subtitle-size: 18px;
+$nav-link-size: 20px;
+$nav-footer-size: 12px;
+$toc-size: 16px;
+$social-icon-size: 16px;
+$social-icon-outline-size: 2.25em;
+$single-column-navbar-height: 60px;
+$single-column-drawer-width: 260px;
+$single-column-nav-title-size: 28px;
+$single-column-nav-subtitle-size: 18px;
+$single-column-nav-link-size: 18px;
+$single-column-nav-footer-size: 12px;
+// -- post list
+$post-title-size: 30px;
+$post-description-size: 16px;
+$post-date-size: 16px;
+$post-body-size: 16px;
+$single-column-post-title-size: 22px;
+$single-column-post-description-size: 16px;
+$single-column-post-date-size: 14px;
+// -- pagination
+$pagination-size: 18px;
+// -- tags
+$tags-size: 18px;

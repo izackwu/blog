@@ -1,0 +1,130 @@
+@import "../../scss/variables";
+
+.postlist {
+  > * {
+    &:not(:last-child) {
+      .item {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.12);
+        @media screen and (max-width: $max-single-column-width) {
+          border-bottom: none !important;
+        }
+      }
+    }
+  }
+  &__item_wrapper {
+    &:hover {
+      background: rgba(0, 0, 0, 0.03);
+      * {
+        color: $dark-accent;
+        text-decoration: none;
+      }
+      .item__info__title {
+        text-decoration: underline;
+        text-decoration-style: 2px solid $color-accent;
+        text-underline-position: under;
+      }
+    }
+  }
+
+  * {
+    transition: all 0.2s linear;
+  }
+}
+
+.item {
+  margin: 0 35px;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  @media screen and (max-width: $max-single-column-width) {
+    flex-direction: column-reverse;
+    margin: 0 0 15px 0;
+    padding: 0;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background: $front-container-background;
+  }
+  &__info {
+    flex-grow: 1;
+    @media screen and (max-width: $max-single-column-width) {
+      width: 100%;
+      padding: 15px 20px;
+    }
+    &__title {
+      font-size: $post-title-size;
+      font-weight: 600;
+      font-style: normal;
+      margin-bottom: 10px;
+      margin-top: 0;
+      line-height: 1.5em;
+      @media screen and (max-width: $max-single-column-width) {
+        font-size: $single-column-post-title-size;
+        margin-bottom: 5px;
+      }
+    }
+
+    &__description {
+      font-size: $post-description-size;
+      line-height: 1.5em;
+      margin-bottom: 10px;
+      @media screen and (max-width: $max-single-column-width) {
+        font-size: $single-column-post-description-size;
+        margin-bottom: 5px;
+      }
+    }
+
+    &__date {
+      font-size: $post-date-size;
+      @media screen and (max-width: $max-single-column-width) {
+        font-size: $single-column-post-date-size;
+      }
+    }
+  }
+
+  &__info_compact {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    word-break: break-all;
+    @media screen and (max-width: $max-single-column-width) {
+      width: 100%;
+      padding: 10px 20px;
+    }
+    &__title {
+      font-size: $post-title-size;
+      font-weight: 600;
+      font-style: normal;
+      margin: 0;
+      @media screen and (max-width: $max-single-column-width) {
+        font-size: $single-column-post-title-size;
+      }
+    }
+    &__date {
+      flex-shrink: 0;
+      margin-left: 15px;
+      font-size: $post-date-size;
+      @media screen and (max-width: $max-single-column-width) {
+        font-size: $single-column-post-date-size;
+      }
+    }
+  }
+
+  &__image {
+    flex-shrink: 0;
+    margin-left: 20px;
+    width: 230px;
+    height: 120px;
+    background: no-repeat center;
+    background-size: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    @media screen and (max-width: $max-single-column-width) {
+      width: 100%;
+      height: 180px;
+      margin: 0;
+      border-radius: 0;
+    }
+  }
+}
