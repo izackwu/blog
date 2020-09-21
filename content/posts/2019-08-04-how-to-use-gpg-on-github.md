@@ -1,45 +1,43 @@
 ---
 layout: post
-title: "在Github上使用GPG的全过程"
-categories:
-  - Programmer
+title: "在 Github 上使用 GPG 的全过程"
 tags:
   - Github
   - GPG
   - Git
-excerpt: 如何利用GPG，对每次commit进行签名以确保数据安全，同时信任Github的公钥？
+description: 如何利用 GPG，对每次 commit 进行签名以确保数据安全，同时信任 Github 的公钥？
 image: https://pic.imwzk.com/sofiya-levchenko-308460-unsplash.jpg
 ---
 
 ## 起因
 
-其实在很早之前 Github 就已经充分支持 GPG 密钥了，而在我之前使用 Github 的两年时间内，竟对此一无所知，实在有些“没见过世面”。直至近日，在一次偶然查看仓库的commit历史中，发现某些commit有一个不同寻常的绿色标记（Verified），不仅美观（？）而且看上去舒心，如图所示：
+其实在很早之前 Github 就已经充分支持 GPG 密钥了，而在我之前使用 Github 的两年时间内，竟对此一无所知，实在有些“没见过世面”。直至近日，在一次偶然查看仓库的 commit 历史中，发现某些 commit 有一个不同寻常的绿色标记（Verified），不仅美观（？）而且看上去舒心，如图所示：
 
-![漂亮的Verified标记](https://pic.imwzk.com/github-verified-screenshot.png)
+![漂亮的 Verified 标记](https://pic.imwzk.com/github-verified-screenshot.png)
 
-点击这个标记，得知这一次commit是经过签名验证的（signed with a verified signature），因此，我便开始研究如何利用GPG对自己的每次commit进行签名验证。
+点击这个标记，得知这一次 commit 是经过签名验证的（signed with a verified signature），因此，我便开始研究如何利用 GPG 对自己的每次 commit 进行签名验证。
 
-## 什么是GPG
+## 什么是 GPG
 
->GnuPG is a complete and free implementation of the OpenPGP standard as
->defined by [RFC4880](https://www.ietf.org/rfc/rfc4880.txt)(also known as *PGP*). GnuPG allows you to encrypt and
->sign your data and communications; it features a versatile key management
->system, along with access modules for all kinds of public key
->directories.  GnuPG, also known as *GPG*, is a command line tool with
->features for easy integration with other applications. 
+> GnuPG is a complete and free implementation of the OpenPGP standard as
+> defined by [RFC4880](https://www.ietf.org/rfc/rfc4880.txt)(also known as _PGP_). GnuPG allows you to encrypt and
+> sign your data and communications; it features a versatile key management
+> system, along with access modules for all kinds of public key
+> directories. GnuPG, also known as _GPG_, is a command line tool with
+> features for easy integration with other applications.
 
-以上是从[GPG网站](https://gnupg.org/)上摘取的部分简介，总的来说，GPG的功能十分丰富，然而我这次主要是用它来对Git中的commit进行签名验证，所以需要做的事情也不算太复杂：
+以上是从 [GPG 网站](https://gnupg.org/) 上摘取的部分简介，总的来说，GPG 的功能十分丰富，然而我这次主要是用它来对 Git 中的 commit 进行签名验证，所以需要做的事情也不算太复杂：
 
-1. 生成自己的GPG密钥
-2. 关联GPG公钥与Github账户
-3. 设置利用GPG私钥对commit进行签名
-4. 可选步骤：信任Github的GPG密钥
+1. 生成自己的 GPG 密钥
+2. 关联 GPG 公钥与 Github 账户
+3. 设置利用 GPG 私钥对 commit 进行签名
+4. 可选步骤：信任 Github 的 GPG 密钥
 
 ## 过程
 
-### 安装GPG
+### 安装 GPG
 
-由于我的目的是在Git中使用GPG，而Windows版本的Git发行包中，已经包含了可用的GPG命令行。判断方法也很简单，打开Git Bash，输入`gpg --version`，可以看到类似的GPG版本信息：
+由于我的目的是在 Git 中使用 GPG，而 Windows 版本的 Git 发行包中，已经包含了可用的 GPG 命令行。判断方法也很简单，打开 Git Bash，输入`gpg --version`，可以看到类似的 GPG 版本信息：
 
 ```bash
 $ gpg --version
@@ -59,11 +57,11 @@ Hash: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
 Compression: Uncompressed, ZIP, ZLIB, BZIP2
 ```
 
-不过需要说明的是，如果所安装的Git版本比较久远（比如我一开始所用的Git发行包是2017年的），那么很可能其包含的GPG版本过低，影响后续的操作，所以建议直接更新Git发行包至最新版本。
+不过需要说明的是，如果所安装的 Git 版本比较久远（比如我一开始所用的 Git 发行包是 2017 年的），那么很可能其包含的 GPG 版本过低，影响后续的操作，所以建议直接更新 Git 发行包至最新版本。
 
-### 生成自己的GPG密钥
+### 生成自己的 GPG 密钥
 
-打开Git Bash，运行`gpg --full-generate-key`，根据提示，输入相应的个人信息（**需要注意的是邮箱必须要使用在Github中验证过的邮箱**）、自定义密钥参数、设置私钥密码等等，即可生成自己的GPG密钥。（补充说明，使用`gpg --gen-key`亦可生成密钥，但是会略去自定义密钥参数的步骤，对于一般场合的使用倒也问题不大。）
+打开 Git Bash，运行`gpg --full-generate-key`，根据提示，输入相应的个人信息（**需要注意的是邮箱必须要使用在 Github 中验证过的邮箱**）、自定义密钥参数、设置私钥密码等等，即可生成自己的 GPG 密钥。（补充说明，使用`gpg --gen-key`亦可生成密钥，但是会略去自定义密钥参数的步骤，对于一般场合的使用倒也问题不大。）
 
 输出结果的末尾大致如下：
 
@@ -79,9 +77,9 @@ sub   rsa2048 2019-08-04 [E] [expires: 2021-08-03]
 
 ```
 
-需要记下的，是上述输出信息中的密钥ID：`1BA074F113915706D141348CDC3DB5873563E6B2` 或者`DC3DB5873563E6B2`，后者是前者的简短形式。
+需要记下的，是上述输出信息中的密钥 ID：`1BA074F113915706D141348CDC3DB5873563E6B2` 或者`DC3DB5873563E6B2`，后者是前者的简短形式。
 
-当然，如果没有及时将其记下也不要紧，可以运行`gpg --list-keys`，列出本地存储的所有GPG密钥信息，大致如下：
+当然，如果没有及时将其记下也不要紧，可以运行`gpg --list-keys`，列出本地存储的所有 GPG 密钥信息，大致如下：
 
 ```bash
 $ gpg --list-keys
@@ -95,13 +93,13 @@ sub   rsa2048 2019-08-04 [E] [expires: 2021-08-03]
 
 稍微解读一下这些结果：
 
-* `pub`其后的是该密钥的公钥特征，包括了密钥的参数（加密算法是rsa，长度为2048，生成于2019-08-04，用途是Signing和Certificating，一年之后过期）以及密钥的ID。
-* `uid`其后的是生成密钥时所输入的个人信息。
-* `sub`其后的则是该密钥的子密钥特征，格式和公钥部分大致相同（E表示用途是Encrypting）。
+- `pub`其后的是该密钥的公钥特征，包括了密钥的参数（加密算法是 rsa，长度为 2048，生成于 2019-08-04，用途是 Signing 和 Certificating，一年之后过期）以及密钥的 ID。
+- `uid`其后的是生成密钥时所输入的个人信息。
+- `sub`其后的则是该密钥的子密钥特征，格式和公钥部分大致相同（E 表示用途是 Encrypting）。
 
-### 关联GPG公钥与Github账户
+### 关联 GPG 公钥与 Github 账户
 
-还记得在上一步中记下的密钥ID吗？现在，我们需要根据这个ID来导出对应GPG密钥的公钥字符串。继续在Git Bash中，运行命令`gpg --armor --export {key_id}`:
+还记得在上一步中记下的密钥 ID 吗？现在，我们需要根据这个 ID 来导出对应 GPG 密钥的公钥字符串。继续在 Git Bash 中，运行命令`gpg --armor --export {key_id}`:
 
 ```bash
 $ gpg --armor --export 1BA074F113915706D141348CDC3DB5873563E6B2
@@ -137,47 +135,47 @@ msQ78G2MjX4AAYR5iNnQ/IWDBKbOWt3ajIoJuebArw==
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-然后，在Github的[SSH and GPG keys](https://github.com/settings/keys)中，新增一个GPG key，内容即是上述命令的输出结果。
+然后，在 Github 的 [SSH and GPG keys](https://github.com/settings/keys) 中，新增一个 GPG key，内容即是上述命令的输出结果。
 
-再次提醒，GPG密钥中个人信息的邮箱部分，必须使用在Github中验证过的邮箱，否则添加GPG key会提示未经验证。
+再次提醒，GPG 密钥中个人信息的邮箱部分，必须使用在 Github 中验证过的邮箱，否则添加 GPG key 会提示未经验证。
 
-### 利用GPG私钥对Git commit进行签名
+### 利用 GPG 私钥对 Git commit 进行签名
 
-首先，需要让Git知道签名所用的GPG密钥ID：
+首先，需要让 Git 知道签名所用的 GPG 密钥 ID：
 
 ```bash
 git config --global user.signingkey {key_id}
 ```
 
-然后，在每次commit的时候，加上`-S`参数，表示这次提交需要用GPG密钥进行签名：
+然后，在每次 commit 的时候，加上`-S`参数，表示这次提交需要用 GPG 密钥进行签名：
 
 ```bash
 git commit -S -m "..."
 ```
 
-如果觉得每次都需要手动加上`-S`有些麻烦，可以设置Git为每次commit自动要求签名：
+如果觉得每次都需要手动加上`-S`有些麻烦，可以设置 Git 为每次 commit 自动要求签名：
 
 ```bash
 git config --global commit.gpgsign true
 ```
 
-但不论是否需要手动加上`-S`，在commit时皆会弹出对话框，需要输入该密钥的密码，以确保是密钥拥有者本人操作，如图所示：
+但不论是否需要手动加上`-S`，在 commit 时皆会弹出对话框，需要输入该密钥的密码，以确保是密钥拥有者本人操作，如图所示：
 
 ![GPG Signing on commit](https://pic.imwzk.com/git-commit-gpg.png)
 
-输入正确密码后，本次commit便被签名验证，push到Github远程仓库后，即可显示出Verified绿色标记（由于`fortest <test@test.com>`密钥的邮箱未经验证，所以此处实际用的是我本人的密钥进行签名）：
+输入正确密码后，本次 commit 便被签名验证，push 到 Github 远程仓库后，即可显示出 Verified 绿色标记（由于`fortest <test@test.com>`密钥的邮箱未经验证，所以此处实际用的是我本人的密钥进行签名）：
 
 ![结果](https://pic.imwzk.com/github-verified-screenshot-again.png)
 
-### 可选步骤：信任Github的GPG密钥
+### 可选步骤：信任 Github 的 GPG 密钥
 
-事实上，在完成上述步骤后，已经可以**基本**完全正常地同时使用Github和GPG了，那为什么还需要这一步骤呢？很简单，不妨用`git log --show-signature`试试查看本地的某个Git仓库的commit记录和签名信息：
+事实上，在完成上述步骤后，已经可以**基本**完全正常地同时使用 Github 和 GPG 了，那为什么还需要这一步骤呢？很简单，不妨用`git log --show-signature`试试查看本地的某个 Git 仓库的 commit 记录和签名信息：
 
 ```bash
 $ git log --show-signature
 # some output is omitted
 commit ec37d4af120a69dafa077052cfdf4f5e33fa1ef3 (HEAD -> master)
-gpg: Signature made 2019年08月 4日 12:52:29
+gpg: Signature made 2019 年 08 月 4 日 12:52:29
 gpg:                using RSA key 1BA074F113915706D141348CDC3DB5873563E6B2
 gpg: Good signature from "fortest <test@test.com>" [ultimate]
 Author: keithnull <keith1126@126.com>
@@ -186,7 +184,7 @@ Date:   Sun Aug 4 12:52:29 2019 +0800
     test GPG
 
 commit 6937d638d950362f73bfbf28bc4a39d1700bf26b
-gpg: Signature made 2019年07月24日 15:58:46
+gpg: Signature made 2019 年 07 月 24 日 15:58:46
 gpg:                using RSA key 4AEE18F83AFDEB23
 gpg: Can't check signature: No public key
 Author: Keith Null <20233656+keithnull@users.noreply.github.com>
@@ -196,9 +194,9 @@ Date:   Wed Jul 24 15:58:46 2019 +0800
 
 ```
 
-可以发现，虽然所有的commit在Github中查看都是Verified，但是有一些比较特殊：在Github网页端进行的操作，比如创建仓库。这些commit并没有用我们之前生成的密钥进行签名，而是由Github代为签名了。这样的结果就是，我们本地无法确认这些签名的真实性。
+可以发现，虽然所有的 commit 在 Github 中查看都是 Verified，但是有一些比较特殊：在 Github 网页端进行的操作，比如创建仓库。这些 commit 并没有用我们之前生成的密钥进行签名，而是由 Github 代为签名了。这样的结果就是，我们本地无法确认这些签名的真实性。
 
-为了解决这个问题，我们需要导入并信任[Github所用的GPG密钥](https://github.com/web-flow.gpg)。
+为了解决这个问题，我们需要导入并信任 [Github 所用的 GPG 密钥](https://github.com/web-flow.gpg)。
 
 先是导入：
 
@@ -219,7 +217,6 @@ pub  rsa2048/4AEE18F83AFDEB23
      trust: unknown       validity: full
 [  full  ] (1). GitHub (web-flow commit signing) <noreply@github.com>
 
-
 pub  rsa2048/4AEE18F83AFDEB23
      created: 2017-08-16  expires: never       usage: SC
      trust: unknown       validity: full
@@ -233,13 +230,13 @@ key "Keith Null <keith1126@126.com>" (7C4BC917F7B12E8A)
 Really sign? (y/N) y
 ```
 
-至此，再尝试查看本地仓库的commit签名信息，则会发现所有的commit签名都已得到验证：
+至此，再尝试查看本地仓库的 commit 签名信息，则会发现所有的 commit 签名都已得到验证：
 
 ```bash
 $ git log --show-signature
 # some output is omitted
 commit 6937d638d950362f73bfbf28bc4a39d1700bf26b
-gpg: Signature made 2019年07月24日 15:58:46
+gpg: Signature made 2019 年 07 月 24 日 15:58:46
 gpg:                using RSA key 4AEE18F83AFDEB23
 gpg: Good signature from "GitHub (web-flow commit signing) <noreply@github.com>" [full]
 Author: Keith Null <20233656+keithnull@users.noreply.github.com>
@@ -250,5 +247,4 @@ Date:   Wed Jul 24 15:58:46 2019 +0800
 
 ## 结束
 
-经过这一番操作，Github和GPG圆满结合在了一起，而我也得到了我想要的Verified标记。不过，GPG的功能远非止于此，它还可以用来对文件、邮件等进行加密，还可以进行身份验证等等，都有待我去学习研究。
-
+经过这一番操作，Github 和 GPG 圆满结合在了一起，而我也得到了我想要的 Verified 标记。不过，GPG 的功能远非止于此，它还可以用来对文件、邮件等进行加密，还可以进行身份验证等等，都有待我去学习研究。

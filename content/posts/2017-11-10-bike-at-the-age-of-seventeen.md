@@ -1,14 +1,13 @@
 ---
 layout: post
 title: "十七岁时，我们都渴望一辆单车"
-categories:
-  - Film Lover
 tags:
   - 《十七岁的单车》
   - 影评
+description: 本文是电影《十七岁的单车》的观后感。
 ---
 
->本文是电影《十七岁的单车》的观后感。
+> 本文是电影《十七岁的单车》的观后感。
 
 ![《十七岁的单车》电影海报](http://upload-images.jianshu.io/upload_images/8817191-e086e0076a2294a6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -21,6 +20,7 @@ tags:
 有人说回忆比现实更伤感，其实我不同意，因为生活已经足够伤感了。如果觉得不够，建议吃几个山楂。那样肯定够了。
 
 ## 十七岁，是一个容易被忽视的年龄
+
 古人把女子十三四岁称作豆蔻年华，十五岁及笄，十六岁碧玉年华，尔后二十，桃李年华；而男子，十五志学，二十弱冠。
 
 直到现在，人们提起年龄，十五六岁给人青少年的感受，而十八岁则是成年，**单单少了中间的十七岁**。
@@ -78,7 +78,7 @@ tags:
 当然，我们都有短暂的拥有。
 
 ![小坚与潇潇](http://upload-images.jianshu.io/upload_images/8817191-c9f70d7351f1205b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![这个动作很危险，小朋友不要模仿!](http://upload-images.jianshu.io/upload_images/8817191-8bbd04f9bfcddb64.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![这个动作很危险，小朋友不要模仿！](http://upload-images.jianshu.io/upload_images/8817191-8bbd04f9bfcddb64.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![得到单车的小贵](http://upload-images.jianshu.io/upload_images/8817191-e7366b04d10c2fab.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 可是，十七岁的时候，又有什么能力去永远地捍卫单车？
@@ -86,12 +86,3 @@ tags:
 **美好易碎，龟玉毁于椟。**潇潇不再喜欢小坚，她有了新男友；快递公司会开除丢失单车的小贵。
 
 **十七岁的单车，终归不属于十七岁的我们。**
-
-
-
-
-
-
-
-
-
