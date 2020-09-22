@@ -5,7 +5,7 @@ tags:
   - 生日
   - 二十岁
 description: 二十岁，大学历程已然过半，前方多歧路，今安在？
-image: https://pic.imwzk.com/dino-reichmuth-d6yDSisNi4w-unsplash.jpg
+image: https://pic.imwzk.com/manouchehr-hejazi-QeoXkIesiCo-unsplash.webp
 redirect_from:
   - /just-move-on/
   - /just-move-on

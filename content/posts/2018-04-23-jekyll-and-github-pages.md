@@ -7,7 +7,7 @@ tags:
   - Github Pages
   - 博客
 description: 我是如何用 Jekyll 搭建博客并部署到 Github Pages 上的。
-image: https://pic.imwzk.com/alex-stuart-567895-unsplash.jpg
+image: https://pic.imwzk.com/alex-stuart-567895-unsplash.webp
 redirect_from:
   - /jekyll-and-github-pages/
   - /jekyll-and-github-pages
@@ -37,7 +37,7 @@ Github Pages 上提供了少数可选的 Jekyll 主题，但 [Jekyll Themes](htt
 很漂亮，同时也很简约。
 
 <figure>
-    <a href="https://pic.imwzk.com/halve-home-image.png"><img src="https://pic.imwzk.com/halve-home-image.png"></a>
+    <a href="https://pic.imwzk.com/halve-home-image.webp"><img src="https://pic.imwzk.com/halve-home-image.webp"></a>
     <figcaption><a href="https://github.com/TaylanTatli/Halve">Jekyll Theme: Halve</a></figcaption>
 </figure>
 
@@ -206,7 +206,7 @@ img {
 这样子之后，效果相对可以接受了。
 
 <figure>
-    <a href="https://pic.imwzk.com/Screenshot-2018-4-24 Keith Null.png"><img src="https://pic.imwzk.com/Screenshot-2018-4-24 Keith Null.png"></a>
+    <a href="https://pic.imwzk.com/screenshot-jekyll-blog.webp"><img src="https://pic.imwzk.com/screenshot-jekyll-blog.webp"></a>
     <figcaption>最终效果</figcaption>
 </figure>
 

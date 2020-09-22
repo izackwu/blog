@@ -104,7 +104,7 @@ def find_vcvarsall(version):
 其作者简单解释了出错的原因并给出了解决方案：
 
 <figure>
-    <a href="https://pic.imwzk.com/unable-to-find-vcvarsall-bat-msdn.png"><img src="https://pic.imwzk.com/unable-to-find-vcvarsall-bat-msdn.png"></a>
+    <a href="https://pic.imwzk.com/unable-to-find-vcvarsall-bat-msdn.webp"><img src="https://pic.imwzk.com/unable-to-find-vcvarsall-bat-msdn.webp"></a>
     <figcaption>MSDN: Solutions</figcaption>
 </figure>
 
@@ -151,7 +151,7 @@ error: command 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\BIN\\
 , 给出的答案看上去非常靠谱：
 
 <figure>
-    <a href="https://pic.imwzk.com/stackoverflow-exit-status-1158.png"><img src="https://pic.imwzk.com/stackoverflow-exit-status-1158.png"></a>
+    <a href="https://pic.imwzk.com/stackoverflow-exit-status-1158.webp"><img src="https://pic.imwzk.com/stackoverflow-exit-status-1158.webp"></a>
     <figcaption>StackOverflow: Solutions</figcaption>
 </figure>
 
@@ -189,4 +189,4 @@ Finished generating code
 
 编译这么一件小事，按理说一行命令就能解决的事，在 Windows 下变得如此麻烦，尽管我最终解决了问题，但实在耗费了不少精力。
 
-如果有得选，我选择 Linux, 就不会有这些麻烦了。..
+如果有得选，我选择 Linux, 就不会有这些麻烦了……

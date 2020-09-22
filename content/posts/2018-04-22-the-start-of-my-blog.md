@@ -6,7 +6,7 @@ tags:
   - 博客
   - 表达欲
 description: 人总是有无法满足的表达欲望。
-image: https://pic.imwzk.com/dawid-zawila-223727-unsplash.jpg
+image: https://pic.imwzk.com/dawid-zawila-WuFMPPsYOg0-unsplash.webp
 redirect_from:
   - /the-start-of-my-blog/
   - /the-start-of-my-blog

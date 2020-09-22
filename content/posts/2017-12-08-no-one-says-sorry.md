@@ -24,7 +24,7 @@ redirect_from:
 
 为了这一句道歉，他精心筹划，打电话给电视台直播自己的恐怖行为，千般努力，却一无所得。在他死前，他问电视台主持人尹荣华，“一句道歉的话就那么难吗？”
 
-![一句道歉的话就那么难吗](http://upload-images.jianshu.io/upload_images/8817191-776c6ed8b931e305.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![一句道歉的话就那么难吗](https://pic.imwzk.com/8817191-776c6ed8b931e305.webp)
 
 难吗？难。
 
@@ -34,7 +34,7 @@ redirect_from:
 
 他选择把这条消息作为独家新闻，换取自己的晋升。
 
-![独家新闻](http://upload-images.jianshu.io/upload_images/8817191-f2a6ad06032a3f3f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![独家新闻](https://pic.imwzk.com/8817191-f2a6ad06032a3f3f.webp)
 
 他神采飞扬，整理好自己的衣装与头发，得意地打电话给局长，谈着职位与独家消息的等价交换。在他看来，得到这条消息就是自己的幸运。
 
@@ -43,15 +43,17 @@ redirect_from:
 为此，他要求尹荣华在节目中一步步引导，反复提及“恐怖袭击”之类的词语，不顾事态发展而换取节目的收视率。
 
 在收视率达到 78%时，他满意而从容地离开演播室——之后的事，与他何干？
-![事了拂衣去，深藏功与名。](http://upload-images.jianshu.io/upload_images/8817191-23ed8e7f031311bc.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![事了拂衣去，深藏功与名。](https://pic.imwzk.com/8817191-23ed8e7f031311bc.webp)
 
 而千呼万唤不出来的总统先生，宁可牺牲大桥上的民众，也要保持国家的威信，坚持原则，拒绝向恐怖分子妥协。
 
 义正词严？但精明的局长点出了根源：要利用不妥协逼迫恐怖分子杀害民众，强加给他更多罪恶，从而能站在正义的立场讨伐“朴鲁珪”，挽回他所披露的事情对政府形象的破坏。
 
 他说，“人质死了恐怖事件才能结束。”
-![人质死了恐怖事件才能结束。](http://upload-images.jianshu.io/upload_images/8817191-a0402a7851fdbe97.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![看透一切的局长](http://upload-images.jianshu.io/upload_images/8817191-f8e35adeb2e2db60.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![人质死了恐怖事件才能结束。](https://pic.imwzk.com/8817191-a0402a7851fdbe97.webp)
+![看透一切的局长](https://pic.imwzk.com/8817191-f8e35adeb2e2db60.webp)
 
 如其所愿，尽管“朴鲁珪”有耐心面对一再拖延的政府辞令，但大桥终于坍圮，人质落入江中。最后，“朴鲁珪”被狙击手射杀，自由落体。
 
@@ -63,7 +65,7 @@ redirect_from:
 
 毕竟，总要有一个交代。
 
-![替罪羊](http://upload-images.jianshu.io/upload_images/8817191-9ba1bd325011ac53.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![替罪羊](https://pic.imwzk.com/8817191-9ba1bd325011ac53.webp)
 
 是的，尹荣华当然是有罪的，他收受黑钱，把妻子的新闻占为己有，他不是人们所认为的完美正义化身。但是，难道这一切的错误就可以仅仅归咎于他？
 
@@ -88,4 +90,5 @@ redirect_from:
 或许，这真的是唯一的出路了吧。
 
 可是，很遗憾，就算引爆一切，也没有人道歉啊！
-![最后，毁灭](http://upload-images.jianshu.io/upload_images/8817191-f08d06162c36cc21.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![最后，毁灭](https://pic.imwzk.com/8817191-f08d06162c36cc21.webp)

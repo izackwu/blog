@@ -12,7 +12,7 @@ redirect_from:
 
 > 本文是电影《十七岁的单车》的观后感。
 
-![《十七岁的单车》电影海报](http://upload-images.jianshu.io/upload_images/8817191-e086e0076a2294a6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![《十七岁的单车》电影海报](https://pic.imwzk.com/8817191-e086e0076a2294a6.webp)
 
 周五之夜，按照惯常是我每周的观影时间。
 
@@ -36,7 +36,8 @@ redirect_from:
 
 ## 单车，在被忽视中所寻找的存在感
 
-![两人共同的单车](http://upload-images.jianshu.io/upload_images/8817191-115e0e9af7628f18.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![两人共同的单车](https://pic.imwzk.com/8817191-115e0e9af7628f18.webp)
+
 如果正处于一个躁动的年龄，而未能得到与之相匹的注视，那么，就搞出点动静来吧。
 
 《十七岁的单车》中，两位男主人公分别是来自农村的“北漂”，北京底层的“土著”。**他们好像截然不同，又好像同病相怜**。
@@ -52,7 +53,8 @@ redirect_from:
 新来的妹妹比他更受继母和亲父的重视，父亲许诺购买的自行车一再拖延，这些让他在那群光鲜亮丽的哥们面前有所赧颜。
 
 他渴望一辆单车，因为只有有了单车，他才能和哥们一起去玩车，才能和心怡的漂亮姑娘潇潇一起上下学。
-![潇潇（高圆圆饰）](http://upload-images.jianshu.io/upload_images/8817191-7310795b3bb2a778.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![潇潇（高圆圆饰）](https://pic.imwzk.com/8817191-7310795b3bb2a778.webp)
 
 因此，单车成为了**两人共同寻找的一种存在感**，唯一不同的是：对于小贵，单车的物质意义更强烈；对于小坚，单车的心理需求更重要。
 
@@ -74,15 +76,17 @@ redirect_from:
 
 **十七岁，认定了单车，就不愿放手，甚至不需要思考什么。**
 
-![影片结尾，小贵扛着单车穿过街巷](http://upload-images.jianshu.io/upload_images/8817191-6316eb54a9c1cda8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![影片结尾，小贵扛着单车穿过街巷](https://pic.imwzk.com/8817191-6316eb54a9c1cda8.webp)
 
 ## 可是，又有谁能最终拥有单车
 
 当然，我们都有短暂的拥有。
 
-![小坚与潇潇](http://upload-images.jianshu.io/upload_images/8817191-c9f70d7351f1205b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![这个动作很危险，小朋友不要模仿！](http://upload-images.jianshu.io/upload_images/8817191-8bbd04f9bfcddb64.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![得到单车的小贵](http://upload-images.jianshu.io/upload_images/8817191-e7366b04d10c2fab.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![小坚与潇潇](https://pic.imwzk.com/8817191-c9f70d7351f1205b.webp)
+
+![这个动作很危险，小朋友不要模仿！](https://pic.imwzk.com/8817191-8bbd04f9bfcddb64.webp)
+
+![得到单车的小贵](https://pic.imwzk.com/8817191-e7366b04d10c2fab.webp)
 
 可是，十七岁的时候，又有什么能力去永远地捍卫单车？
 

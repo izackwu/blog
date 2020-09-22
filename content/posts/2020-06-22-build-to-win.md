@@ -8,7 +8,7 @@ tags:
   - 软件工程
   - 读后感
 description: 不久之前，参加了微软实习的面试，当时觉得面试经历颇为不可思议；在读过《构建之法》之后，却似乎慢慢领会其中深意。
-image: https://pic.imwzk.com/random-sky-YGIiQSnzXwA-unsplash.jpg
+image: https://pic.imwzk.com/random-sky-YGIiQSnzXwA-unsplash.webp
 redirect_from:
   - /build-to-win/
   - /build-to-win

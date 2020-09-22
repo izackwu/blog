@@ -6,7 +6,7 @@ tags:
   - GPG
   - Git
 description: 如何利用 GPG，对每次 commit 进行签名以确保数据安全，同时信任 Github 的公钥？
-image: https://pic.imwzk.com/sofiya-levchenko-308460-unsplash.jpg
+image: https://pic.imwzk.com/github-verified-screenshot-again.webp
 redirect_from:
   - /how-to-use-gpg-on-github/
   - /how-to-use-gpg-on-github
@@ -16,7 +16,7 @@ redirect_from:
 
 其实在很早之前 Github 就已经充分支持 GPG 密钥了，而在我之前使用 Github 的两年时间内，竟对此一无所知，实在有些“没见过世面”。直至近日，在一次偶然查看仓库的 commit 历史中，发现某些 commit 有一个不同寻常的绿色标记（Verified），不仅美观（？）而且看上去舒心，如图所示：
 
-![漂亮的 Verified 标记](https://pic.imwzk.com/github-verified-screenshot.png)
+![漂亮的 Verified 标记](https://pic.imwzk.com/github-verified-screenshot.webp)
 
 点击这个标记，得知这一次 commit 是经过签名验证的（signed with a verified signature），因此，我便开始研究如何利用 GPG 对自己的每次 commit 进行签名验证。
 
@@ -164,11 +164,11 @@ git config --global commit.gpgsign true
 
 但不论是否需要手动加上`-S`，在 commit 时皆会弹出对话框，需要输入该密钥的密码，以确保是密钥拥有者本人操作，如图所示：
 
-![GPG Signing on commit](https://pic.imwzk.com/git-commit-gpg.png)
+![GPG Signing on commit](https://pic.imwzk.com/git-commit-gpg.webp)
 
 输入正确密码后，本次 commit 便被签名验证，push 到 Github 远程仓库后，即可显示出 Verified 绿色标记（由于`fortest <test@test.com>`密钥的邮箱未经验证，所以此处实际用的是我本人的密钥进行签名）：
 
-![结果](https://pic.imwzk.com/github-verified-screenshot-again.png)
+![结果](https://pic.imwzk.com/github-verified-screenshot-again.webp)
 
 ### 可选步骤：信任 Github 的 GPG 密钥
 

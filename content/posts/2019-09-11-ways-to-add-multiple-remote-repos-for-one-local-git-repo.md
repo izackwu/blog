@@ -4,7 +4,7 @@ title: "本地 Git 仓库关联多个远程仓库的两种方法"
 tags:
   - Git
 description: 通常情况下，一个本地 Git 仓库对应一个远程仓库，那么，如何使其同时关联多个远程仓库呢？
-image: https://pic.imwzk.com/shifaaz-shamoon-sLAk1guBG90-unsplash.jpg
+image: https://pic.imwzk.com/shifaaz-shamoon-sLAk1guBG90-unsplash.webp
 redirect_from:
   - /ways-to-add-multiple-remote-repos-for-one-local-git-repo/
   - /ways-to-add-multiple-remote-repos-for-one-local-git-repo
