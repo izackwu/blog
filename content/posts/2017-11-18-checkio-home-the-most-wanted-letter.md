@@ -5,6 +5,9 @@ tags:
   - Checkio
   - Python
 description: 本文是 CheckiO 探险日志系列第一篇
+redirect_from:
+  - /checkio-home-the-most-wanted-letter/
+  - /checkio-home-the-most-wanted-letter
 ---
 
 > 本文是 CheckiO 探险日志系列第一篇

@@ -8,6 +8,9 @@ tags:
   - 博客
 description: 我是如何用 Jekyll 搭建博客并部署到 Github Pages 上的。
 image: https://pic.imwzk.com/alex-stuart-567895-unsplash.jpg
+redirect_from:
+  - /jekyll-and-github-pages/
+  - /jekyll-and-github-pages
 ---
 
 ## 起因

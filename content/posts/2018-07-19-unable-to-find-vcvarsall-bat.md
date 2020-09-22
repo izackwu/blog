@@ -8,7 +8,9 @@ tags:
   - Compile
   - C Extension
 description: Windows 平台下 Python 编译 C 拓展出错：Unable to find vcvarsall.bat 的解决过程。
-image:
+redirect_from:
+  - /unable-to-find-vcvarsall-bat/
+  - /unable-to-find-vcvarsall-bat
 ---
 
 ## 问题背景

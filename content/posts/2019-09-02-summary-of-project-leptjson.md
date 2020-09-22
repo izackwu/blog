@@ -8,6 +8,9 @@ tags:
   - JSON
 description: 跟着 Milo Yip 的教程，我顺利完成了 leptjson 项目，这一过程中，除了 JSON 与 C，我还学到了什么？
 image: https://pic.imwzk.com/sofiya-levchenko-308460-unsplash.jpg
+redirect_from:
+  - /summary-of-project-leptjson/
+  - /summary-of-project-leptjson
 ---
 
 ## 简介

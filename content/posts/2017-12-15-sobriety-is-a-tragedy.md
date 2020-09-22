@@ -6,6 +6,9 @@ tags:
   - 苏童
   - 书评
 description: 小说伊始，颂莲出场。她“白衣黑裙”、“留着齐耳的短发，用一条天蓝色的缎带箍住”，典型的民国时女大学生形象；然而“满脸尘土疲惫不堪”、“有点苍白”。
+redirect_from:
+  - /sobriety-is-a-tragedy/
+  - /sobriety-is-a-tragedy
 ---
 
 > 本文是《妻妾成群》（苏童）的读后感。

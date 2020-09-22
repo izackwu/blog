@@ -6,6 +6,9 @@ tags:
   - 二十岁
 description: 二十岁，大学历程已然过半，前方多歧路，今安在？
 image: https://pic.imwzk.com/dino-reichmuth-d6yDSisNi4w-unsplash.jpg
+redirect_from:
+  - /just-move-on/
+  - /just-move-on
 ---
 
 > 莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。 ——苏轼《定风波·莫听穿林打叶声》

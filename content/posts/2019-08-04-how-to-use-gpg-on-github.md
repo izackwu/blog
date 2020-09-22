@@ -7,6 +7,9 @@ tags:
   - Git
 description: 如何利用 GPG，对每次 commit 进行签名以确保数据安全，同时信任 Github 的公钥？
 image: https://pic.imwzk.com/sofiya-levchenko-308460-unsplash.jpg
+redirect_from:
+  - /how-to-use-gpg-on-github/
+  - /how-to-use-gpg-on-github
 ---
 
 ## 起因
