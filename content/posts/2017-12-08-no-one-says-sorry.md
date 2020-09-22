@@ -5,6 +5,9 @@ tags:
   - 《恐怖直播》
   - 影评
 description: 本文是电影《恐怖直播》的观后感。
+redirect_from:
+  - /no-one-says-sorry/
+  - /no-one-says-sorry
 ---
 
 > 本文是电影《恐怖直播》的观后感。

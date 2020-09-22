@@ -5,6 +5,9 @@ tags:
   - 《十七岁的单车》
   - 影评
 description: 本文是电影《十七岁的单车》的观后感。
+redirect_from:
+  - /bike-at-the-age-of-seventeen/
+  - /bike-at-the-age-of-seventeen
 ---
 
 > 本文是电影《十七岁的单车》的观后感。

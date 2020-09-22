@@ -8,6 +8,9 @@ tags:
   - Let's Encrypt
 description: Github 与 Let's Encrypt 合作，让事情变得简单了许多。
 image: https://pic.imwzk.com/bryan-minear-368010-unsplash.jpg
+redirect_from:
+  - /https-for-github-pages/
+  - /https-for-github-pages
 ---
 
 对于部署在 Github Pages 上的网站，如果使用默认的`*.github.io`域名，Github 会**自动且强制**地使用 HTTPS，不需要任何额外操作。

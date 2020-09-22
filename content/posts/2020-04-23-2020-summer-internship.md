@@ -10,6 +10,9 @@ tags:
   - 谷歌
 description: 2020 年，大三，按照常规的人生节奏，我踏上了寻找暑期实习的征途。至今，我收到了满意的 offer，回首看来，有哪些经历与经验？
 image: https://pic.imwzk.com/mark-basarab-z8ct_Q3oCqM-unsplash.jpg
+redirect_from:
+  - /2020-summer-internship/
+  - /2020-summer-internship
 ---
 
 ## 概述

@@ -7,6 +7,9 @@ tags:
   - 表达欲
 description: 人总是有无法满足的表达欲望。
 image: https://pic.imwzk.com/dawid-zawila-223727-unsplash.jpg
+redirect_from:
+  - /the-start-of-my-blog/
+  - /the-start-of-my-blog
 ---
 
 > 人总是有无法满足的表达欲望。

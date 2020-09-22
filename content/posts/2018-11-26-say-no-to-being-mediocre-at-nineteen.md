@@ -8,6 +8,9 @@ tags:
   - 庸俗
 description: 十九岁的我，选择怎样的生活？至少，我不愿让一切走向庸俗。
 image: https://pic.imwzk.com/sofiya-levchenko-308460-unsplash.jpg
+redirect_from:
+  - /say-no-to-being-mediocre-at-nineteen/
+  - /say-no-to-being-mediocre-at-nineteen
 ---
 
 > 长安城里的一切都在无可避免的走向庸俗。 ——王小波《万寿寺》
