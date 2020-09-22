@@ -10,6 +10,7 @@ image: https://pic.imwzk.com/alvaro-montanha-9Qmh--z1aI8-unsplash.webp
 redirect_from:
   - /why-i-choose-to-work-after-graduation/
   - /why-i-choose-to-work-after-graduation
+noComments: false
 ---
 
 ## 前言

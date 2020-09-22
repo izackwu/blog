@@ -157,11 +157,15 @@ module.exports = {
       resolve: `gatsby-plugin-gitalk`,
       options: {
         config: {
-          clientID: "ee045e67607d9cc5d75b",
-          clientSecret: "c0f18c2238127559210f0bf94711a5c345eea7f8",
-          repo: "gatsby-starter-breeze",
+          clientID: "541b66df2ca4fba90b0c",
+          clientSecret: "157f686855f29762873e8ce11e056f7397c58209",
+          repo: "blog",
           owner: "keithnull",
           admin: ["keithnull"],
+          pagerDirection: "last",
+          createIssueManually: true,
+          distractionFreeMode: false,
+          enableHotKey: true,
         },
       },
     },
