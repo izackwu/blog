@@ -3,7 +3,7 @@ module.exports = {
     title: `无辄的栈`,
     image: "https://pic.imwzk.com/author.jpg",
     description: `Keith Null's Blog`,
-    siteUrl: `https://beta.imwzk.com`,
+    siteUrl: `https://www.imwzk.com`,
     social: {
       douban: "keith1",
       email: "hi@imwzk.com",
