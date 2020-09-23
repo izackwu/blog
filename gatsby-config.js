@@ -125,7 +125,7 @@ module.exports = {
                 }
               }
             `,
-            output: "/rss.xml",
+            output: "/feed.xml",
             title: "无辄的栈",
           },
         ],
