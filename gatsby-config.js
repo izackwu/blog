@@ -11,7 +11,7 @@ module.exports = {
       github: "keithnull",
       instagram: "",
       linkedin: "",
-      rss: "/rss.xml",
+      rss: "/feed.xml",
       telegram: "",
       twitter: "_keithnull",
       youtube: "",
