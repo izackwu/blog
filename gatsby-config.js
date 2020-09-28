@@ -19,7 +19,7 @@ module.exports = {
     sidebarMenu: [
       { url: "/archive/", label: "归档" },
       { url: "/tags/", label: "标签" },
-      { url: "/about", label: "About" },
+      { url: "/about/", label: "About" },
     ],
     footerHTML: `<a href="https://beian.miit.gov.cn/">赣 ICP 备 19012492 号</a><br/>© 2020 <a href="https://github.com/keithnull">Keith Null</a> All rights reserved.`,
     dateFormat: `YYYY-MM-DD`,
