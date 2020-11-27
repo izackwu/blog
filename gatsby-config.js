@@ -162,7 +162,7 @@ module.exports = {
           repo: "blog",
           owner: "keithnull",
           admin: ["keithnull"],
-          pagerDirection: "last",
+          pagerDirection: "first",
           createIssueManually: true,
           distractionFreeMode: false,
           enableHotKey: true,
