@@ -166,6 +166,9 @@ module.exports = {
           createIssueManually: true,
           distractionFreeMode: false,
           enableHotKey: true,
+          // fix CORS errors
+          proxy:
+            "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token",
         },
       },
     },
