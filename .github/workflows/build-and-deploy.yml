@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Node.js
-        uses: actions/setup-node@v1
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.1.5
         with:
-          node-version: 10.x
+          node-version: 12.x
       - name: Install Gatsby CLI
         run: npm install -g gatsby-cli
       - name: NPM install
