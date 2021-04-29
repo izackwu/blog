@@ -73,6 +73,12 @@ module.exports = {
       },
     },
     {
+     resolve: `gatsby-plugin-plausible`,
+     options: {
+       domain: `imwzk.com`,
+     },
+   },
+    {
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `
