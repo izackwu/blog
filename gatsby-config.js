@@ -76,6 +76,10 @@ module.exports = {
      resolve: `gatsby-plugin-plausible`,
      options: {
        domain: `imwzk.com`,
+       // this plugin is buggy and would generate an incorrect URL to the plausible JS file
+       // you need to do some rewrites on the serve side, like: 
+       // rewrite /js/index.js /js/plausible.js (for Caddy)
+       customDomain: `plausible.imwzk.com`,
      },
    },
     {
