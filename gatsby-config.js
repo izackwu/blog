@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `无辄的栈`,
     image: "https://pic.imwzk.com/author.jpg",
-    description: `Keith Null's Blog`,
+    description: `Zack Wu's Blog`,
     siteUrl: `https://www.imwzk.com`,
     social: {
       douban: "keith1",
@@ -10,11 +10,12 @@ module.exports = {
       facebook: "",
       github: "keithnull",
       instagram: "",
-      linkedin: "",
+      linkedin: "wuzhengke",
       rss: "/feed.xml",
       telegram: "",
-      twitter: "_keithnull",
+      twitter: "_zackwu",
       youtube: "",
+      keybase: "zackwu",
     },
     sidebarMenu: [
       { url: "/archive/", label: "归档" },
