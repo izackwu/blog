@@ -10,6 +10,7 @@ import {
   IoMdMail,
   RiDoubanFill,
   RiInstagramFill,
+  FaKeybase,
 } from "react-icons/all"
 
 import React from "react"
@@ -36,6 +37,8 @@ export const getIcon = sitename => {
       return <FaTwitter />
     case "youtube":
       return <FaYoutube />
+    case "keybase":
+      return <FaKeybase />
     default:
       return <ImShare2 />
   }
@@ -63,6 +66,8 @@ export const getLink = (sitename, username) => {
       return `https://twitter.com/${username}`
     case "youtube":
       return `https://www.youtube.com/channel/${username}`
+    case "keybase":
+      return `https://keybase.io/${username}`
     default:
       return username
   }
