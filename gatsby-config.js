@@ -8,7 +8,7 @@ module.exports = {
       douban: "keith1",
       email: "hi@imwzk.com",
       facebook: "",
-      github: "keithnull",
+      github: "izackwu",
       instagram: "",
       linkedin: "wuzhengke",
       rss: "/feed.xml",
@@ -22,7 +22,7 @@ module.exports = {
       { url: "/tags/", label: "标签" },
       { url: "/about/", label: "About" },
     ],
-    footerHTML: `<a href="https://beian.miit.gov.cn/">赣 ICP 备 19012492 号</a><br/>© 2017 - 2021 <a href="https://github.com/keithnull">Zack Wu</a> All rights reserved.`,
+    footerHTML: `<a href="https://beian.miit.gov.cn/">赣 ICP 备 19012492 号</a><br/>© 2017 - 2021 <a href="https://github.com/izackwu">Zack Wu</a> All rights reserved.`,
     dateFormat: `YYYY-MM-DD`,
     language: `zh`,
   },
@@ -74,15 +74,15 @@ module.exports = {
       },
     },
     {
-     resolve: `gatsby-plugin-plausible`,
-     options: {
-       domain: `imwzk.com`,
-       // this plugin is buggy and would generate an incorrect URL to the plausible JS file
-       // you need to do some rewrites on the serve side, like: 
-       // rewrite /js/index.js /js/plausible.js (for Caddy)
-       customDomain: `plausible.imwzk.com`,
-     },
-   },
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: `imwzk.com`,
+        // this plugin is buggy and would generate an incorrect URL to the plausible JS file
+        // you need to do some rewrites on the serve side, like:
+        // rewrite /js/index.js /js/plausible.js (for Caddy)
+        customDomain: `plausible.imwzk.com`,
+      },
+    },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -101,7 +101,7 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
+              return allMarkdownRemark.edges.map((edge) => {
                 return Object.assign({}, edge.node.frontmatter, {
                   title: edge.node.frontmatter.title,
                   description:
@@ -110,8 +110,8 @@ module.exports = {
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   custom_elements: [{ "content:encoded": edge.node.html }],
-                })
-              })
+                });
+              });
             },
             query: `
               {
@@ -171,8 +171,8 @@ module.exports = {
           clientID: "541b66df2ca4fba90b0c",
           clientSecret: "157f686855f29762873e8ce11e056f7397c58209",
           repo: "blog",
-          owner: "keithnull",
-          admin: ["keithnull"],
+          owner: "izackwu",
+          admin: ["izackwu"],
           pagerDirection: "first",
           createIssueManually: true,
           distractionFreeMode: false,
@@ -189,4 +189,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};

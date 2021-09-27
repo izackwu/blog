@@ -135,7 +135,7 @@ src
 
 而在具体的编码实现过程中，也曾遇到过许多细枝末节的问题，不过并无太多展开叙述的意义，在此不表。
 
-如有兴趣，完整的代码可见 [keithnull/gatsby-starter-breeze](https://github.com/keithnull/gatsby-starter-breeze)，以及 [在线 Demo](https://gatsby-starter-breeze.netlify.app/)。
+如有兴趣，完整的代码可见 [izackwu/gatsby-starter-breeze](https://github.com/izackwu/gatsby-starter-breeze)，以及 [在线 Demo](https://gatsby-starter-breeze.netlify.app/)。
 
 ## 最后
 

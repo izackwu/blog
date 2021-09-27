@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Keith Null <keith1126@126.com>",
   "bugs": {
-    "url": "https://github.com/keithnull/gatsby-starter-breeze/issues"
+    "url": "https://github.com/izackwu/gatsby-starter-breeze/issues"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
@@ -45,7 +45,7 @@
   "devDependencies": {
     "prettier": "2.1.0"
   },
-  "homepage": "https://github.com/keithnull/gatsby-starter-breeze",
+  "homepage": "https://github.com/izackwu/gatsby-starter-breeze",
   "keywords": [
     "gatsby"
   ],
@@ -53,7 +53,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keithnull/gatsby-starter-breeze.git"
+    "url": "git+https://github.com/izackwu/gatsby-starter-breeze.git"
   },
   "scripts": {
     "build": "gatsby build",
