@@ -6,7 +6,7 @@ tags:
   - 保研
   - 工作
 description: 放弃保研的资格，选择在毕业后直接工作，是一个不同寻常的决定。那么，为什么我会做出这样的决定呢？又有哪些思考呢？
-image: https://pic.imwzk.com/alvaro-montanha-9Qmh--z1aI8-unsplash.webp
+image: /image/alvaro-montanha-9Qmh--z1aI8-unsplash.webp
 redirect_from:
   - /why-i-choose-to-work-after-graduation/
   - /why-i-choose-to-work-after-graduation

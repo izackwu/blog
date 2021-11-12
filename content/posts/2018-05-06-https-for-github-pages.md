@@ -19,7 +19,7 @@ redirect_from:
 然而就在前几天，无意间看到 Github 的官方消息，自定义域名也支持 HTTPS 了，而且操作简单，所以毫无疑问，肯定选择 HTTPS。
 
 <figure>
-    <a href="https://pic.imwzk.com/github-https-twitter.webp"><img src="https://pic.imwzk.com/github-https-twitter.webp"></a>
+    <a href="/image/github-https-twitter.webp"><img src="/image/github-https-twitter.webp"></a>
     <figcaption>Github 在 Twitter 上发布的消息</figcaption>
 </figure>
 
