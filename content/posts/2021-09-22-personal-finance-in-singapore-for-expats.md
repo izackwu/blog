@@ -11,7 +11,7 @@ tags:
   - 投资
   - SingPass
 description: 作为初来乍到的外国人，如何优雅从容地适应新加坡生活，处理好个人金融的方方面面？本文将尽量全面而简洁，介绍我这几个月的经历与心得。
-image: https://pic.imwzk.com/visual-stories-micheile-f030K9IzpcM-unsplash.webp
+image: /image/visual-stories-micheile-f030K9IzpcM-unsplash.webp
 ---
 
 ## 写在前面
@@ -188,7 +188,7 @@ image: https://pic.imwzk.com/visual-stories-micheile-f030K9IzpcM-unsplash.webp
 
 作为一个依赖现金的社会，新加坡有**许多商家只接受现金支付**，醒目地贴着「Cash Only」。不过，由于移动支付的普及，稍微有些规模的商家都会接受除了现金之外的支付手段，一般仅仅是**比较小或者比较传统的商家**才会只接受现金，如食阁的小商贩。
 
-![Cash Only](https://pic.imwzk.com/cashonly-sign.webp)
+![Cash Only](/image/cashonly-sign.webp)
 
 #### 2. 只接受现金，NETS 以及 PayNow 等现金性质的支付手段
 
@@ -212,11 +212,11 @@ image: https://pic.imwzk.com/visual-stories-micheile-f030K9IzpcM-unsplash.webp
 
 一是各个支付软件的独立二维码，如前面提到的 GrabPay 和 PayNow，以及各家银行各自推行的支付 APP（如 DBS PayLah，但基本没啥使用的意义）。就我的观察而言，**GrabPay 二维码在新加坡的普及程度尚可，尤其是各种餐饮商家**，如果提供了扫码支付，大概率是 GrabPay 的二维码（或者下述的万能码）；PayNow 也有一定的普及度，毕竟其是新加坡官方推行的支付手段。除此之外的其他二维码，往往都是个别出现，我一般直接无视，甚至宁愿回退到现金支付。
 
-![奶茶店的 GrabPay 二维码](https://pic.imwzk.com/grab-qr-code-at-itea.webp)
+![奶茶店的 GrabPay 二维码](/image/grab-qr-code-at-itea.webp)
 
 二是新加坡政府推行的「万能二维码」。有多万能呢？见下图。可以看到，这样的二维码同时支持了**数十种支付平台，甚至包括了国内的微信支付和支付宝**。这样的二维码，我主要在食阁商贩处见到，尤其是 Chinatown 的小商贩。
 
-![Chinatown 见到的万能二维码](https://pic.imwzk.com/super-qr-code-at-chinatown.webp)
+![Chinatown 见到的万能二维码](/image/super-qr-code-at-chinatown.webp)
 
 #### 5. 公交地铁
 

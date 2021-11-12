@@ -8,7 +8,7 @@ tags:
   - TLS/SSL
   - 计算机网络
 description: 记一次耗费了我三天精力，但是相当有趣的 Debug 经历
-image: https://pic.imwzk.com/network-error.png
+image: /image/network-error.png
 ---
 
 ## 发生了什么事？
@@ -135,7 +135,7 @@ $ curl -v "https://www.bundesregierung.de/breg-en" -H "User-Agent: Go-http-clien
 
 本着「大胆假设，小心求证」的原则，既然同样的请求由 Go 和 `curl` 发出会得到不同的结果，那我便大胆地怀疑是 Go 的 HTTP 标准库 `net/http` 存在问题（似乎过于大胆了……）:
 
-![My Twitter Screenshot](https://pic.imwzk.com/go-net-twitter.png)
+![My Twitter Screenshot](/image/go-net-twitter.png)
 
 然而，在埋头扎进 `net/http` 的源码几个小时之后，虽然我通过读代码+断点调试了解到了不少其内部实现细节，然而面对庞杂的代码库，实在有些大海捞针的无力感。另一方面，在冷静下来之后，我倾向于相信 Go 的 HTTP 标准库本身并没有与此相关的 Bug，毕竟这是一个广泛使用且成熟的标准库。另外，至少从概率上来说，问题出在其他地方的可能性会更大一些。
 
@@ -151,7 +151,7 @@ os.Setenv("HTTPS_PROXY", "127.0.0.1:8866") // Fiddler's proxy address
 
 由于对方网站采用了 HTTPS 协议，单纯地经由代理只能捕捉到 TLS 的握手请求，而无从得知 HTTPS 请求本身。好在 Fiddler 提供了相应的功能，在信任其证书之后，便可开启 Capture HTTPS trafic 功能。
 
-![Fiddler HTTPS](https://pic.imwzk.com/fiddler-https.png)
+![Fiddler HTTPS](/image/fiddler-https.png)
 
 然而此时，神奇的现象出现了：原本还是 `503` 的请求，在经由 Fiddler 代理之后，居然奇迹般地返回了 `200` 正常响应！不由得让我感到十分振奋（毕竟这证明了 Go 本身发出的请求并没有问题，是可以正常被服务器处理的），同时又无比费解，为什么同样的请求经过代理转发就能正常响应呢？
 

@@ -7,7 +7,7 @@ tags:
   - 校招
   - 工作
 description: 在今年的校招中，我顺利通过了（几乎）所有我投递的公司的面试。如今秋招告一段落，总结我的经历，如何通过各大公司的技术岗位面试？这是一份不完全指南。
-image: https://pic.imwzk.com/maranda-vandergriff-7aakZdIl4vg-unsplash.webp
+image: /image/maranda-vandergriff-7aakZdIl4vg-unsplash.webp
 ---
 
 ## 背景
