@@ -3,10 +3,10 @@ module.exports = {
     title: `无辄的栈`,
     image: "https://pic.imwzk.com/author.jpg",
     description: `Zack Wu's Blog`,
-    siteUrl: `https://www.imwzk.com`,
+    siteUrl: `https://www.zackwu.com`,
     social: {
       douban: "keith1",
-      email: "hi@imwzk.com",
+      email: "hi@zackwu.com",
       facebook: "",
       github: "izackwu",
       instagram: "",
@@ -76,7 +76,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-plausible`,
       options: {
-        domain: `imwzk.com`,
+        domain: `zackwu.com`,
         // this plugin is buggy and would generate an incorrect URL to the plausible JS file
         // you need to do some rewrites on the serve side, like:
         // rewrite /js/index.js /js/plausible.js (for Caddy)
