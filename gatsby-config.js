@@ -22,7 +22,7 @@ module.exports = {
       { url: "/tags/", label: "标签" },
       { url: "/about/", label: "About" },
     ],
-    footerHTML: `<a href="https://beian.miit.gov.cn/">赣 ICP 备 19012492 号</a><br/>© 2017 - 2021 <a href="https://github.com/izackwu">Zack Wu</a> All rights reserved.`,
+    footerHTML: `Powered by <a href="https://www.gatsbyjs.com/">Gatsby</a> and <a href="https://github.com/izackwu/gatsby-starter-breeze">Breeze Theme</a><br/> © 2017 - 2021 <a href="https://github.com/izackwu">Zack Wu</a> All rights reserved.`,
     dateFormat: `YYYY-MM-DD`,
     language: `zh`,
   },
