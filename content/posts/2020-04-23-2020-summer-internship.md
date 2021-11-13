@@ -9,7 +9,7 @@ tags:
   - 蚂蚁金服
   - 谷歌
 description: 2020 年，大三，按照常规的人生节奏，我踏上了寻找暑期实习的征途。至今，我收到了满意的 offer，回首看来，有哪些经历与经验？
-image: /image/mark-basarab-z8ct_Q3oCqM-unsplash.webp
+image: /images/mark-basarab-z8ct_Q3oCqM-unsplash.webp
 redirect_from:
   - /2020-summer-internship/
   - /2020-summer-internship
@@ -33,7 +33,7 @@ redirect_from:
 
 那么，在寻找暑期实习伊始，我仅仅选定了两家目标公司：谷歌与微软。而可能出于外企较为慵懒的工作效率以及我简历的不够过硬，在我网申投出简历两三个月后，这两家公司依旧毫无进展。自然而然地，在两三个月无果后，为了减少内心的焦虑不安，我稍做准备，额外挑了两家国内互联网企业：腾讯与蚂蚁金服，以期「保底」。因此，总体时间线如下图所示：
 
-![Timeline](/image/2020-summer-internship-timeline.webp)
+![Timeline](/images/2020-summer-internship-timeline.webp)
 
 再逐公司记录一下我寻找实习的经历吧。
 

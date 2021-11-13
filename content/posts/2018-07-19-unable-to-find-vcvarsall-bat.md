@@ -104,7 +104,7 @@ def find_vcvarsall(version):
 其作者简单解释了出错的原因并给出了解决方案：
 
 <figure>
-    <a href="/image/unable-to-find-vcvarsall-bat-msdn.webp"><img src="/image/unable-to-find-vcvarsall-bat-msdn.webp"></a>
+    <a href="/images/unable-to-find-vcvarsall-bat-msdn.webp"><img src="/images/unable-to-find-vcvarsall-bat-msdn.webp"></a>
     <figcaption>MSDN: Solutions</figcaption>
 </figure>
 
@@ -151,7 +151,7 @@ error: command 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\BIN\\
 , 给出的答案看上去非常靠谱：
 
 <figure>
-    <a href="/image/stackoverflow-exit-status-1158.webp"><img src="/image/stackoverflow-exit-status-1158.webp"></a>
+    <a href="/images/stackoverflow-exit-status-1158.webp"><img src="/images/stackoverflow-exit-status-1158.webp"></a>
     <figcaption>StackOverflow: Solutions</figcaption>
 </figure>
 

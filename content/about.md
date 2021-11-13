@@ -2,7 +2,7 @@
 title: About
 slug: "/about/"
 layout: page
-image: /image/dil-F35EmcotWPY-unsplash.webp
+image: /images/dil-F35EmcotWPY-unsplash.webp
 description: 关于我的一些信息
 date: 2020-09-24
 ---
@@ -27,13 +27,13 @@ date: 2020-09-24
     <p>在更多的平台，如果你见到这样的一棵树，而且用户名为「无辄」，那么多半也是我。</p>
     <p>见树🌳如面。</p>
   </div>
-<img src="/image/author.webp" alt="我的头像" style="max-width:20%;margin-top:auto;margin-bottom:auto;padding-bottom: 0.25em;"/>
+<img src="/images/author.webp" alt="我的头像" style="max-width:20%;margin-top:auto;margin-bottom:auto;padding-bottom: 0.25em;"/>
 </div>
 
 如果你想对博客中的文章有所评论，推荐直接在文章下方评论区留言，或者可以给我发邮件至 [hi@zackwu.com](mailto:hi@zackwu.com) ，我会比较及时地阅读、回复。如果你觉得有必要，也可以通过诸如 Twitter 私信、Telegram 私聊等方式和我取得联系，不过时间精力有限，我**不能**保证回应的及时性。
 
 如果你想第一时间得到文章更新的通知，推荐使用任意 RSS 阅读器订阅本站，地址为 [https://www.zackwu.com/feed.xml](https://www.zackwu.com/feed.xml)。而如果你没有使用 RSS 阅读器的习惯，也可以在左侧边栏找到本站的 [Telegram 频道](https://t.me/wzstack)，订阅获得文章更新推送和可能会有的更新预告。当然，你亦可通过关注我的微信公众号获得文章推送，不过微信公众号的推送仅为博客文章的**子集**（大概率每年只会推送一次），且可能存在数天的**迟滞**。顺便多说一句，在这个信息过载的时代，我推荐大家使用 RSS 订阅等方式来定制个人信息源，而**不推荐**使用微信公众号等内容质量难测的孤岛平台。
 
-<img src="/image/wechat-white.webp" alt="我的微信公众号" style="display:block;margin-left:auto;margin-right:auto;"/>
+<img src="/images/wechat-white.webp" alt="我的微信公众号" style="display:block;margin-left:auto;margin-right:auto;"/>
 
 最后，如果我写的内容有幸对你产生了有益的启发与思考，或许你可以考虑给我小额打赏，鼓励我更好地记录生活与思考：[🍩 面包多 / 顿顿饭](https://dun.mianbaoduo.com/@keithnull)。

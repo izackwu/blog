@@ -7,7 +7,7 @@ tags:
   - 平庸
   - 庸俗
 description: 十九岁的我，选择怎样的生活？至少，我不愿让一切走向庸俗。
-image: /image/sofiya-levchenko-Meeycb5dpXs-unsplash.webp
+image: /images/sofiya-levchenko-Meeycb5dpXs-unsplash.webp
 redirect_from:
   - /say-no-to-being-mediocre-at-nineteen/
   - /say-no-to-being-mediocre-at-nineteen
