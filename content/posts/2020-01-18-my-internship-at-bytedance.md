@@ -6,7 +6,7 @@ tags:
   - 工作
   - 字节跳动
 description: 在字节跳动短暂的三个月实习，印证并补充了我在实习前对国内互联网行业的所有设想，包括好的方面与坏的方面。
-image: /image/bytedance-building.webp
+image: /images/bytedance-building.webp
 redirect_from:
   - /my-internship-at-bytedance/
   - /my-internship-at-bytedance

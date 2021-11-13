@@ -5,7 +5,7 @@ tags:
   - 生日
   - 二十一岁
 description: 于我而言，二十一岁的关键词是「选择」。经历了痛苦的纠结，但也笃定了未来的方向。
-image: /image/hayden-walker-fgpg3KzFrQY-unsplash.webp
+image: /images/hayden-walker-fgpg3KzFrQY-unsplash.webp
 ---
 
 > 也许多少年后在某个地方 / 我将轻声叹息把往事回顾 / 一片树林里分出两条路 / 而我选了人迹更少的一条 / 因此走出了这迥异的旅途。—— Robert Frost《未选择的路》

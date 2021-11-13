@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `无辄的栈`,
-    image: "/image/author.webp",
+    image: "/images/author.webp",
     description: `Zack Wu's Blog`,
     siteUrl: `https://www.zackwu.com`,
     social: {

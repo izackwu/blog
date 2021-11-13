@@ -5,7 +5,7 @@ tags:
   - 生日
   - 二十岁
 description: 二十岁，大学历程已然过半，前方多歧路，今安在？
-image: /image/manouchehr-hejazi-QeoXkIesiCo-unsplash.webp
+image: /images/manouchehr-hejazi-QeoXkIesiCo-unsplash.webp
 redirect_from:
   - /just-move-on/
   - /just-move-on
