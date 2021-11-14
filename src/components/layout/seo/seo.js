@@ -14,24 +14,25 @@ import React from "react"
 const SEO = ({ description, lang, meta, title, socialImage }) => {
   const { site } = useStaticQuery(
     graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            image
-            social {
-              twitter
-            }
-            language
+    query {
+      site {
+        siteMetadata {
+          title
+          description
+          image
+          social {
+            twitter
           }
+          language
+          siteUrl
         }
       }
+    }
     `
-  )
-
+    )
   const metaDescription = description || site.siteMetadata.description
-  const metaImage = socialImage || site.siteMetadata.image
+  // Twitter card only supports absolute URLs
+  const metaImage = (new URL(socialImage || site.siteMetadata.image, site.siteMetadata.siteUrl)).toString()
 
   return (
     <Helmet
