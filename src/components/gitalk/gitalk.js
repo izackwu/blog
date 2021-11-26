@@ -3,7 +3,7 @@ import "./style-fix.scss"
 
 import Gitalk from "gatsby-plugin-gitalk"
 import React from "react"
-import styles from "./gitalk.module.scss"
+import * as styles from "./gitalk.module.scss"
 
 const MyGitalk = ({ title, id }) => {
   return (

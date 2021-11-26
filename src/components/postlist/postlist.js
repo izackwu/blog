@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import styles from "./postlist.module.scss"
+import * as styles from "./postlist.module.scss"
 
 const PostList = ({ posts, compact }) => {
   return (

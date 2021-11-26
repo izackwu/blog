@@ -2,14 +2,14 @@ import { FaRegCalendarAlt, FaTags } from "react-icons/fa"
 
 import { Link } from "gatsby"
 import React from "react"
-import styles from "./post.module.scss"
+import * as styles from "./post.module.scss"
 
 const _ = require("lodash")
 
 const Post = ({ post }) => {
   return (
     <article>
-      <header className={styles["header"]}>
+      <header>
         {post.frontmatter.image && (
           <div
             className={styles["header__image"]}

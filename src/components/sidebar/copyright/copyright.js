@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./copyright.module.scss"
+import * as styles from "./copyright.module.scss"
 
 const Copyright = ({ contentHTML }) => {
   return (
