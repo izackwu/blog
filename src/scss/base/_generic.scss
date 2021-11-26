@@ -1,4 +1,4 @@
-/** 
+/**
  * Generic
  */
 
@@ -98,6 +98,7 @@ blockquote {
 
 a {
   color: $color-accent;
+  text-decoration: none;
   &:hover {
     color: darken($color-accent, 10%);
     text-underline-position: under;
