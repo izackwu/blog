@@ -7,7 +7,7 @@ import Menu from "./menu"
 import SiteMeta from "./sitemeta"
 import SocialLinks from "./social-links"
 import TOC from "./toc"
-import styles from "./sidebar.module.scss"
+import * as styles from "./sidebar.module.scss"
 
 const Sidebar = ({ toc }) => {
   const { site } = useStaticQuery(

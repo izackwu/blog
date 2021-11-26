@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./toc.module.scss"
+import * as styles from "./toc.module.scss"
 
 const TOC = ({ toc }) => {
   if (!toc) {

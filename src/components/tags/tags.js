@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import kebabCase from "lodash/kebabCase"
-import styles from "./tags.module.scss"
+import * as styles from "./tags.module.scss"
 
 const Tags = ({ tags }) => {
   return (

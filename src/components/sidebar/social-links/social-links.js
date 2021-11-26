@@ -1,7 +1,7 @@
 import { getIcon, getLink } from "./utils"
 
 import React from "react"
-import styles from "./social-links.module.scss"
+import * as styles from "./social-links.module.scss"
 
 const SocialLinks = ({ social }) => {
   return (

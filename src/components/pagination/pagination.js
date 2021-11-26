@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import styles from "./pagination.module.scss"
+import * as styles from "./pagination.module.scss"
 
 const Pagination = ({
   prevText,
@@ -11,15 +11,15 @@ const Pagination = ({
 }) => {
   return (
     <nav className={styles["pagination"]}>
-      <div className={styles["pagination__prev"]}>
+      <div>
         {prevLink && (
           <Link to={prevLink} rel="prev">
             {prevText}
           </Link>
         )}
       </div>
-      <div className={styles["pagination__current"]}>{currentText}</div>
-      <div className={styles["pagination__next"]}>
+      <div>{currentText}</div>
+      <div>
         {nextLink && (
           <Link to={nextLink} rel="next">
             {nextText}
