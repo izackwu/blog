@@ -180,7 +180,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       createNodeField({
         node,
         name: "date",
-        value: date,
+        value: new Date(date), // force convert all date to Date type (e.g. from string or Date object already)
       })
     }
   }
