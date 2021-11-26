@@ -1,7 +1,7 @@
 import React from "react"
 import * as styles from "./toc.module.scss"
 
-const TOC = ({ toc }) => {
+const Toc = ({ toc }) => {
   if (!toc) {
     return null
   }
@@ -10,4 +10,4 @@ const TOC = ({ toc }) => {
   )
 }
 
-export default TOC
+export default Toc

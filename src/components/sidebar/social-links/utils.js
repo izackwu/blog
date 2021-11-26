@@ -6,12 +6,12 @@ import {
   FaTelegramPlane,
   FaTwitter,
   FaYoutube,
-  ImShare2,
-  IoMdMail,
-  RiDoubanFill,
-  RiInstagramFill,
   FaKeybase,
-} from "react-icons/all"
+} from "react-icons/fa"
+
+import { ImShare2 } from "react-icons/im"
+import { IoMdMail } from "react-icons/io"
+import { RiDoubanFill, RiInstagramFill } from "react-icons/ri"
 
 import React from "react"
 

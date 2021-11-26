@@ -6,7 +6,7 @@ import Copyright from "./copyright"
 import Menu from "./menu"
 import SiteMeta from "./sitemeta"
 import SocialLinks from "./social-links"
-import TOC from "./toc"
+import Toc from "./toc"
 import * as styles from "./sidebar.module.scss"
 
 const Sidebar = ({ toc }) => {
@@ -60,7 +60,7 @@ const Sidebar = ({ toc }) => {
       />
       <Menu menu={site.siteMetadata.sidebarMenu} />
       <SocialLinks social={site.siteMetadata.social} />
-      <TOC toc={toc} />
+      <Toc toc={toc} />
       <Copyright contentHTML={site.siteMetadata.footerHTML} />
     </div>
   )
