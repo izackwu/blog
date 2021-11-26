@@ -11,28 +11,31 @@ import { Helmet } from "react-helmet"
 import PropTypes from "prop-types"
 import React from "react"
 
-const SEO = ({ description, lang, meta, title, socialImage }) => {
+const Seo = ({ description, lang, meta, title, socialImage }) => {
   const { site } = useStaticQuery(
     graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-          description
-          image
-          social {
-            twitter
+      query {
+        site {
+          siteMetadata {
+            title
+            description
+            image
+            social {
+              twitter
+            }
+            language
+            siteUrl
           }
-          language
-          siteUrl
         }
       }
-    }
     `
-    )
+  )
   const metaDescription = description || site.siteMetadata.description
   // Twitter card only supports absolute URLs
-  const metaImage = (new URL(socialImage || site.siteMetadata.image, site.siteMetadata.siteUrl)).toString()
+  const metaImage = new URL(
+    socialImage || site.siteMetadata.image,
+    site.siteMetadata.siteUrl
+  ).toString()
 
   return (
     <Helmet
@@ -87,13 +90,13 @@ const SEO = ({ description, lang, meta, title, socialImage }) => {
   )
 }
 
-SEO.defaultProps = {
+Seo.defaultProps = {
   lang: ``,
   meta: [],
   description: ``,
 }
 
-SEO.propTypes = {
+Seo.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
@@ -101,4 +104,4 @@ SEO.propTypes = {
   socialImage: PropTypes.string,
 }
 
-export default SEO
+export default Seo

@@ -1,11 +1,11 @@
 import React from "react"
-import SEO from "./seo"
+import Seo from "./seo"
 import * as styles from "./layout.module.scss"
 
 const Layout = ({ title, description, socialImage, children, meta }) => {
   return (
     <div className={styles.layout}>
-      <SEO
+      <Seo
         title={title}
         description={description}
         meta={meta}
