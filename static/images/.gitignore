@@ -1,0 +1,4 @@
+# from now on, only allow webp images
+*.png
+*.jpg
+*.jpeg
