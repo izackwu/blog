@@ -30,7 +30,7 @@
     "gatsby-remark-smartypants": "^5.2.0",
     "gatsby-source-filesystem": "^4.2.0",
     "gatsby-transformer-remark": "^5.2.0",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "prismjs": "^1.25.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.2",
