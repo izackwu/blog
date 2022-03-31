@@ -10,7 +10,7 @@ module.exports = {
       facebook: "",
       github: "izackwu",
       instagram: "",
-      linkedin: "wuzhengke",
+      linkedin: "izackwu",
       rss: "/feed.xml",
       telegram: "wzstack",
       twitter: "_zackwu",
@@ -93,7 +93,7 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map((edge) => {
+              return allMarkdownRemark.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
                   title: edge.node.frontmatter.title,
                   description:
@@ -102,8 +102,8 @@ module.exports = {
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   custom_elements: [{ "content:encoded": edge.node.html }],
-                });
-              });
+                })
+              })
             },
             query: `
               {
@@ -181,4 +181,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-};
+}
