@@ -15,7 +15,7 @@ const SocialLinks = ({ social }) => {
                 <li key={sitename} className={styles["social__list__item"]}>
                   <a
                     href={getLink(sitename, username)}
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer me"
                     target="_blank"
                     aria-label={sitename}
                   >

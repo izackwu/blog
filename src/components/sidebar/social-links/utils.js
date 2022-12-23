@@ -7,6 +7,7 @@ import {
   FaTwitter,
   FaYoutube,
   FaKeybase,
+  FaMastodon,
 } from "react-icons/fa"
 
 import { ImShare2 } from "react-icons/im"
@@ -39,6 +40,8 @@ export const getIcon = sitename => {
       return <FaYoutube />
     case "keybase":
       return <FaKeybase />
+    case "mastodon":
+      return <FaMastodon />
     default:
       return <ImShare2 />
   }
@@ -68,6 +71,12 @@ export const getLink = (sitename, username) => {
       return `https://www.youtube.com/channel/${username}`
     case "keybase":
       return `https://keybase.io/${username}`
+    case "mastodon": {
+      // example: @handle@mas.to -> https://mas.to/@handle
+      let [handle, domain] = username.split("@")
+      handle = handle.replace(/^@/, "")
+      return `https://${domain}/@${handle}`
+    }
     default:
       return username
   }

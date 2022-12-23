@@ -16,6 +16,7 @@ module.exports = {
       twitter: "_zackwu",
       youtube: "",
       keybase: "zackwu",
+      mastodon: "zackwu@mas.to",
     },
     sidebarMenu: [
       { url: "/archive/", label: "归档" },
