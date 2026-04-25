@@ -32,7 +32,7 @@ export const pageQuery = graphql`
   query($tag: String, $dateFormat: String) {
     allMarkdownRemark(
       limit: 2000
-      sort: { fields: [fields___date], order: DESC }
+      sort: { fields: { date: DESC } }
       filter: { frontmatter: { tags: { in: [$tag] }, layout: { ne: "page" } } }
     ) {
       totalCount

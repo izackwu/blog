@@ -36,7 +36,7 @@ export default BlogIndex
 export const pageQuery = graphql`
   query($skip: Int!, $limit: Int!, $dateFormat: String) {
     allMarkdownRemark(
-      sort: { fields: [fields___date], order: DESC }
+      sort: { fields: { date: DESC } }
       filter: { frontmatter: { layout: { ne: "page" } } }
       limit: $limit
       skip: $skip
