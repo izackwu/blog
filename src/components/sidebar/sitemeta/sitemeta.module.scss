@@ -1,4 +1,5 @@
-@import "../../../scss/variables";
+@use "sass:color";
+@use "../../../scss/variables" as *;
 
 .sitemeta {
   padding: 30px 28px 30px 20px;

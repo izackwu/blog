@@ -1,4 +1,5 @@
-@import "../../../scss/variables";
+@use "sass:color";
+@use "../../../scss/variables" as *;
 
 .menu {
   flex-grow: 1;

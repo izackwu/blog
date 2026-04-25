@@ -39,7 +39,8 @@
     "prettier": "^3.3.0"
   },
   "overrides": {
-    "sharp": "^0.34.5"
+    "sharp": "^0.34.5",
+    "sass-loader": "^16.0.0"
   },
   "homepage": "https://github.com/izackwu/gatsby-starter-breeze",
   "keywords": [
