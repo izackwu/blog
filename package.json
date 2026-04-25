@@ -12,7 +12,6 @@
     "gatsby": "^4.2.0",
     "gatsby-plugin-feed": "^4.2.0",
     "gatsby-plugin-gitalk": "^1.2.6",
-    "gatsby-plugin-google-analytics": "^4.2.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-manifest": "^4.2.0",
     "gatsby-plugin-meta-redirect": "^1.1.1",
