@@ -24,7 +24,7 @@ export const query = graphql`
   query($dateFormat: String) {
     allMarkdownRemark(
       filter: { frontmatter: { layout: { ne: "page" } } }
-      sort: { fields: fields___date, order: DESC }
+      sort: { fields: { date: DESC } }
     ) {
       edges {
         node {

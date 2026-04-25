@@ -22,7 +22,7 @@ exports.createPages = async ({ graphql, actions }) => {
         }
         postsRemark: allMarkdownRemark(
           filter: { frontmatter: { layout: { ne: "page" } } }
-          sort: { fields: [fields___date], order: DESC }
+          sort: { fields: { date: DESC } }
           limit: 1000
         ) {
           edges {
@@ -55,7 +55,7 @@ exports.createPages = async ({ graphql, actions }) => {
           filter: { frontmatter: { layout: { ne: "page" } } }
           limit: 1000
         ) {
-          group(field: frontmatter___tags) {
+          group(field: { frontmatter: { tags: SELECT } }) {
             fieldValue
           }
         }

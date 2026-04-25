@@ -103,7 +103,7 @@ module.exports = {
             query: `
               {
                 allMarkdownRemark(
-                  sort: { order: DESC, fields: [fields___date] },
+                  sort: { fields: { date: DESC } },
                   filter: {frontmatter: {layout: {ne: "page"}}},
                 ) {
                   edges {
