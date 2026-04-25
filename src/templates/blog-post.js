@@ -27,7 +27,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
           nextText={next && next.frontmatter.title + " →"}
         />
         {!post.frontmatter.noComments && (
-          <MyGitalk id={pageContext.slug} title={post.frontmatter.title} />
+          <MyGitalk id={pageContext.gitalkId} title={post.frontmatter.title} />
         )}
       </Main>
     </Layout>
