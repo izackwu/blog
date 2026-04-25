@@ -4,6 +4,7 @@ import MyGitalk from "../components/gitalk"
 import Pagination from "../components/pagination"
 import Post from "../components/post"
 import React from "react"
+import Seo from "../components/layout/seo"
 import Sidebar from "../components/sidebar"
 import { graphql } from "gatsby"
 
@@ -12,11 +13,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
   const { previous, next } = pageContext
 
   return (
-    <Layout
-      title={post.frontmatter.title}
-      description={post.frontmatter.description || post.excerpt}
-      socialImage={post.frontmatter.image}
-    >
+    <Layout>
       <Sidebar toc={post.tableOfContents} />
       <Main>
         <Post post={post} />
@@ -35,6 +32,17 @@ const BlogPostTemplate = ({ data, pageContext }) => {
 }
 
 export default BlogPostTemplate
+
+export const Head = ({ data }) => {
+  const post = data.markdownRemark
+  return (
+    <Seo
+      title={post.frontmatter.title}
+      description={post.frontmatter.description || post.excerpt}
+      socialImage={post.frontmatter.image}
+    />
+  )
+}
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!, $dateFormat: String) {

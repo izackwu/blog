@@ -3,13 +3,14 @@ import Main from "../components/main"
 import Page from "../components/page"
 import PostList from "../components/postlist"
 import React from "react"
+import Seo from "../components/layout/seo"
 import Sidebar from "../components/sidebar"
 import { graphql } from "gatsby"
 
 const Archive = ({ data }) => {
   const posts = data.allMarkdownRemark.edges
   return (
-    <Layout title="Archive" description="本站所有文章，尽在此处，一览无余。">
+    <Layout>
       <Sidebar />
       <Main>
         <Page title="Archive" nopadding>
@@ -19,6 +20,12 @@ const Archive = ({ data }) => {
     </Layout>
   )
 }
+
+export default Archive
+
+export const Head = () => (
+  <Seo title="Archive" description="本站所有文章，尽在此处，一览无余。" />
+)
 
 export const query = graphql`
   query($dateFormat: String) {
@@ -40,5 +47,3 @@ export const query = graphql`
     }
   }
 `
-
-export default Archive
