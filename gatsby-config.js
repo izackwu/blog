@@ -61,12 +61,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `UA-118116525-1`,
-      },
-    },
-    {
       resolve: `gatsby-plugin-plausible`,
       options: {
         domain: `zackwu.com`,
