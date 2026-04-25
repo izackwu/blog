@@ -21,7 +21,7 @@ const PageTemplate = ({ data, pageContext }) => {
           <div dangerouslySetInnerHTML={{ __html: page.html }} />
         </Page>
         {!page.frontmatter.noComments && (
-          <MyGitalk id={pageContext.slug} title={page.frontmatter.title} />
+          <MyGitalk id={pageContext.gitalkId} title={page.frontmatter.title} />
         )}
       </Main>
     </Layout>

@@ -1,6 +1,14 @@
 const _ = require("lodash")
+const crypto = require("crypto")
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+
+const GITALK_LABEL_MAX_LENGTH = 50
+
+function gitalkId(slug) {
+  if (slug.length <= GITALK_LABEL_MAX_LENGTH) return slug
+  return crypto.createHash("md5").update(slug).digest("hex")
+}
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
@@ -75,6 +83,7 @@ exports.createPages = async ({ graphql, actions }) => {
       component: pageTemplate,
       context: {
         slug: page.node.fields.slug,
+        gitalkId: gitalkId(page.node.fields.slug),
         dateFormat: dateFormat,
       },
     })
@@ -91,6 +100,7 @@ exports.createPages = async ({ graphql, actions }) => {
       component: blogPost,
       context: {
         slug: post.node.fields.slug,
+        gitalkId: gitalkId(post.node.fields.slug),
         previous,
         next,
         dateFormat: dateFormat,

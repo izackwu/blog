@@ -151,25 +151,6 @@ module.exports = {
         display: "swap",
       },
     },
-    {
-      resolve: `gatsby-plugin-gitalk`,
-      options: {
-        config: {
-          clientID: "541b66df2ca4fba90b0c",
-          clientSecret: "157f686855f29762873e8ce11e056f7397c58209",
-          repo: "blog",
-          owner: "izackwu",
-          admin: ["izackwu"],
-          pagerDirection: "first",
-          createIssueManually: true,
-          distractionFreeMode: false,
-          enableHotKey: true,
-          // fix CORS errors
-          proxy:
-            "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token",
-        },
-      },
-    },
     "gatsby-redirect-from",
     "gatsby-plugin-meta-redirect", // make sure this is always the last one
     // this (optional) plugin enables Progressive Web App + Offline functionality
