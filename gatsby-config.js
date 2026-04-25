@@ -142,7 +142,6 @@ module.exports = {
         icon: `static/tree.png`,
       },
     },
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-google-fonts`,

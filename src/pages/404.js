@@ -2,11 +2,12 @@ import Layout from "../components/layout"
 import Main from "../components/main"
 import Page from "../components/page"
 import React from "react"
+import Seo from "../components/layout/seo"
 import Sidebar from "../components/sidebar"
 
 const NotFoundPage = () => {
   return (
-    <Layout title="404: Not Found">
+    <Layout>
       <Sidebar />
       <Main>
         <Page title="404: Not Found">
@@ -18,3 +19,5 @@ const NotFoundPage = () => {
 }
 
 export default NotFoundPage
+
+export const Head = () => <Seo title="404: Not Found" />
