@@ -1,4 +1,4 @@
-@import "../../scss/variables";
+@use "../../scss/variables" as *;
 
 .main {
   width: $main-container-width;
