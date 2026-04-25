@@ -1,3 +1,6 @@
+@use "sass:color";
+@use "../variables" as *;
+
 /**
  * Generic
  */
@@ -100,7 +103,7 @@ a {
   color: $color-accent;
   text-decoration: none;
   &:hover {
-    color: darken($color-accent, 10%);
+    color: color.adjust($color-accent, $lightness: -10%);
     text-underline-position: under;
   }
 }

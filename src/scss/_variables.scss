@@ -1,4 +1,6 @@
-/** 
+@use "sass:color";
+
+/**
  * Variables
  */
 
@@ -7,11 +9,11 @@ $color-accent: #177682;
 $back-container-background: #fcfcfc;
 $front-container-background: #ffffff;
 
-$dark-accent: darken($color-accent, 10%);
-$deep-dark-accent: darken($color-accent, 50%);
+$dark-accent: color.adjust($color-accent, $lightness: -10%);
+$deep-dark-accent: color.adjust($color-accent, $lightness: -50%);
 $color-text: $deep-dark-accent;
 
-@if lightness($color-accent) <20% {
+@if color.channel($color-accent, "lightness", $space: hsl) < 20% {
   $dark-accent: $color-accent;
   $deep-dark-accent: $color-accent;
   $color-text: $deep-dark-accent;
