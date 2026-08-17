@@ -58,6 +58,11 @@
     border-radius: 5px;
     overflow: hidden;
   }
+  // Embeds (Strava, etc.) size themselves inline but are left-aligned by default.
+  iframe {
+    margin-left: auto;
+    margin-right: auto;
+  }
   @media screen and (max-width: $max-single-column-width) {
     padding: 20px;
   }
