@@ -69,7 +69,7 @@ export const getLink = (sitename, username) => {
     case "telegram":
       return `https://t.me/${username}`
     case "threads":
-      return `https://www.threads.net/@${username}`
+      return `https://www.threads.com/@${username}`
     case "twitter":
       return `https://twitter.com/${username}`
     case "youtube":
