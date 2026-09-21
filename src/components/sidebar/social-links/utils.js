@@ -10,6 +10,7 @@ import {
   FaMastodon,
 } from "react-icons/fa"
 
+import { FaThreads } from "react-icons/fa6"
 import { ImShare2 } from "react-icons/im"
 import { IoMdMail } from "react-icons/io"
 import { RiDoubanFill, RiInstagramFill } from "react-icons/ri"
@@ -34,6 +35,8 @@ export const getIcon = sitename => {
       return <FaRss />
     case "telegram":
       return <FaTelegramPlane />
+    case "threads":
+      return <FaThreads />
     case "twitter":
       return <FaTwitter />
     case "youtube":
@@ -65,6 +68,8 @@ export const getLink = (sitename, username) => {
       return username
     case "telegram":
       return `https://t.me/${username}`
+    case "threads":
+      return `https://www.threads.net/@${username}`
     case "twitter":
       return `https://twitter.com/${username}`
     case "youtube":
