@@ -13,6 +13,7 @@ module.exports = {
       linkedin: "izackwu",
       rss: "/feed.xml",
       telegram: "",
+      threads: "izackwu",
       twitter: "_zackwu",
       youtube: "",
       keybase: "",

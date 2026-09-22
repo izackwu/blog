@@ -26,6 +26,7 @@ const Sidebar = ({ toc }) => {
               douban
               mastodon
               twitter
+              threads
               github
               facebook
               linkedin
