@@ -12,23 +12,46 @@
       margin-top: 0;
     }
   }
-  &__title {
+  // Mirrors the post header (see post.module.scss) so pages and posts share
+  // one header treatment.
+  &__info {
     padding: 10px 35px 0 35px;
-    margin-bottom: 0;
     font-weight: 600;
     font-style: normal;
     line-height: 1.5em;
-    font-size: $post-title-size;
     @media screen and (max-width: $max-single-column-width) {
       padding: 10px 20px 0 20px;
     }
+    &__title {
+      font-size: $post-title-size;
+      // Undated pages (tags, archive, 404) render the title alone. Its bottom
+      // margin would collapse out of this wrapper and stack onto the content's
+      // padding, so drop it when nothing follows.
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    &__date {
+      margin-right: 20px;
+    }
   }
+}
+
+.icon {
+  display: inline;
+  vertical-align: auto;
+  margin: 0 8px 3px 0;
 }
 
 .content {
   padding: 30px 35px 35px 35px;
   font-size: $post-body-size;
   line-height: 1.5em;
+  // This padding owns the space above the first block. A leading heading would
+  // otherwise add its own margin on top of it.
+  > :first-child {
+    margin-top: 0;
+  }
   * {
     word-wrap: break-word;
   }

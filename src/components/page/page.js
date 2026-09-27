@@ -1,7 +1,8 @@
+import { FaRegCalendarAlt } from "react-icons/fa"
 import React from "react"
 import * as styles from "./page.module.scss"
 
-const Page = ({ title, image, children, nopadding }) => {
+const Page = ({ title, image, date, children, nopadding }) => {
   return (
     <div>
       <header>
@@ -11,7 +12,15 @@ const Page = ({ title, image, children, nopadding }) => {
             style={{ backgroundImage: `url(${image})` }}
           ></div>
         )}
-        <h1 className={styles["header__title"]}>{title}</h1>
+        <div className={styles["header__info"]}>
+          <h1 className={styles["header__info__title"]}>{title}</h1>
+          {date && (
+            <span className={styles["header__info__date"]}>
+              <FaRegCalendarAlt className={styles["icon"]} />
+              最后更新于 {date}
+            </span>
+          )}
+        </div>
       </header>
       <section
         className={styles["content"]}
