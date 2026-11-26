@@ -14,7 +14,11 @@ const PageTemplate = ({ data, pageContext }) => {
     <Layout>
       <Sidebar />
       <Main>
-        <Page title={page.frontmatter.title} image={page.frontmatter.image}>
+        <Page
+          title={page.frontmatter.title}
+          image={page.frontmatter.image}
+          date={page.fields.date}
+        >
           <div dangerouslySetInnerHTML={{ __html: page.html }} />
         </Page>
         {!page.frontmatter.noComments && (
@@ -39,10 +43,13 @@ export const Head = ({ data }) => {
 }
 
 export const pageQuery = graphql`
-  query PageBySlug($slug: String!) {
+  query PageBySlug($slug: String!, $dateFormat: String) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       excerpt(pruneLength: 160)
+      fields {
+        date(formatString: $dateFormat)
+      }
       frontmatter {
         title
         image
